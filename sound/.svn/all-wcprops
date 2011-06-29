@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/3681/trunk/sound
+END
+attention.wav
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2284/trunk/sound/attention.wav
+END
+chess_finish.wav
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2126/trunk/sound/chess_finish.wav
+END
+reminder.wav
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2284/trunk/sound/reminder.wav
+END
+email.wav
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/3681/trunk/sound/email.wav
+END
+chess_move.wav
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2126/trunk/sound/chess_move.wav
+END
+pepnotify.wav
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3619/trunk/sound/pepnotify.wav
+END
+watcher.wav
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2284/trunk/sound/watcher.wav
+END
+chess_error.wav
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2126/trunk/sound/chess_error.wav
+END
+chess_start.wav
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2126/trunk/sound/chess_start.wav
+END
