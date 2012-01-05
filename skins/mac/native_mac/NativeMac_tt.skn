@@ -161,7 +161,7 @@ QToolButton:!active#hideButton, QToolButton:!active#closeButton, QToolButton:!ac
 /* ---------- TopFrame--------- */
 /* ------------------------ QFrame#topFrame */
 QFrame#topFrame {
-	background: url(/1/451.png) repeat-x #dddddd;
+	background: url(/Applications/Psi+.app/Contents/Resources/skins/mac/native_mac/images/b_topframe.png) repeat-x #dddddd;
 	border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3b3b3, stop: 1.0 #bbbbbb);
 	border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3b3b3, stop: 1.0 #bbbbbb);
 	border-top: 0px solid #515151;
@@ -170,7 +170,7 @@ QFrame#topFrame {
 }
 
 QFrame:!active#topFrame {
-	background: url(/1/452.png) repeat-x #eeeeee;
+	background: url(/Applications/Psi+.app/Contents/Resources/skins/mac/native_mac/images/b_topframe_no_active.png) repeat-x #eeeeee;
 	border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3b3b3, stop: 1.0 #bbbbbb);
 	border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3b3b3, stop: 1.0 #bbbbbb);
 	margin-left: -10px;
