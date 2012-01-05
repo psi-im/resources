@@ -1,4 +1,4 @@
-<skin version="0.1" path="/Applications/Psi+.app/Contents/Resources/skins/mac/native_mac" author="tuxden" name="Native Mac (Top tabs)">
+<skin version="0.1.1" path="/Applications/Psi+.app/Contents/Resources/skins/mac/native_mac" author="tuxden" name="Native Mac (Top tabs)">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#0000ff</options.ui.look.colors.chat.mailto-color>
@@ -181,12 +181,8 @@ QFrame:!active#topFrame {
 
 /* ------------------------ QWidget#avatar */
 QWidget#avatar {
-	border: none;
-	border-radius: 2px;
-	margin-top: 3px;
-	margin-left: 10px;
-	margin-right: 5px;
-	margin-bottom: 3px;
+	min-width: 60px;
+	min-height:25px;
 }
 /* ------------------------ */
 
@@ -234,6 +230,43 @@ QFrame#log:!active {
 }
 /* ------------------------ */
 
+/* ---------- QComboBox --------- */
+QComboBox {
+	padding-top: 2px;
+	padding-left: 12px;
+	padding-bottom: 3px;
+ }
+
+QComboBox::drop-down {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #c9c9c9, stop: 0.6 #909090, stop: 1.0 #818181) url(/Applications/Psi+.app/Contents/Resources/skins/mac/native_mac/images/qcombobox.png) no-repeat center center;
+	border: 1px solid #404040;
+	border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2c2c2c, stop: 0.5 #222222, stop: 1.0 #2e2e2e);
+	border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2c2c2c, stop: 0.5 #222222, stop: 1.0 #2e2e2e);
+	border-radius: 10px;
+	height: 20px;
+	width: 32px;
+	margin-top: 5px;
+	margin-left: 12px;
+}
+
+QComboBox::drop-down:pressed {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #949494, stop: 0.6 #616161, stop: 1.0 #4f4f4f) url(/Users/tuxden/Psi+/qcombobox.png) no-repeat center center;
+	border: 1px solid #666666;
+}
+
+QComboBox::drop-down:!active {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #c9c9c9, stop: 0.6 #909090, stop: 1.0 #818181) url(/Users/tuxden/Psi+/qcombobox.png) no-repeat center center;
+	border: 1px solid #666666;
+}
+
+QComboBox#le_jid {
+	background: argb(0,0,0,0);
+	border: none;
+	color: #eeeeee;
+	height: 30px;
+	text-align: center;
+}
+/* ------------------------ */
 
 /* ------------------------ QLineEdit#le_jid */
 QLineEdit#le_jid {
@@ -316,21 +349,29 @@ QLabel#lb_ident:!active {
 /* ------------------------ QLabel#lb_status */
 QLabel#lb_status {
 	background: argb(0,0,0,0);
-	border: none;
+	border: 0px;
+	border-right: 1px solid #222222;
 	border-radius: 3px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-	margin-left: 11px;
+	margin-left: 15px;
+	padding-right: 12px;
 	max-width: 30px;
 	max-height: 19px;
+}
+
+QLabel#lb_status:!active {
+	border-right: 1px solid #444444;
 }
 /* ------------------------ */
 
 
 /* ------------------------ QLabel#lb_client */
 QLabel#lb_client {
-	margin-right: 10px;
-	max-width: 16px;
+	max-height: -10px;
+	max-width: -10px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 /* ------------------------ */
 
@@ -1274,7 +1315,19 @@ QLabel#lb_bottom1 {
         <options.ui.muc.use-hash-nick-coloring type="bool">true</options.ui.muc.use-hash-nick-coloring>
         <options.ui.muc.use-highlighting type="bool">true</options.ui.muc.use-highlighting>
         <options.ui.muc.use-nick-coloring type="bool">true</options.ui.muc.use-nick-coloring>
-        <options.ui.notifications.alert-style type="QString">animate</options.ui.notifications.alert-style>
+	<options.ui.muc.theme type="QString">adium/native_mac</options.ui.muc.theme>
+	<options.ui.muc.userlist.avatars.avatars-at-left type="bool">false</options.ui.muc.userlist.avatars.avatars-at-left>
+	<options.ui.muc.userlist.avatars.radius type="int">3</options.ui.muc.userlist.avatars.radius>
+	<options.ui.muc.userlist.avatars.show type="bool">true</options.ui.muc.userlist.avatars.show>
+	<options.ui.muc.userlist.avatars.size type="int">24</options.ui.muc.userlist.avatars.size>
+        <options.ui.muc.userlist.contact-sort-style type="QString">alpha</options.ui.muc.userlist.contact-sort-style>
+	<options.ui.muc.userlist.nick-coloring type="bool">false</options.ui.muc.userlist.nick-coloring>
+	<options.ui.muc.userlist.show-affiliation-icons type="bool">false</options.ui.muc.userlist.show-affiliation-icons>
+	<options.ui.muc.userlist.show-client-icons type="bool">false</options.ui.muc.userlist.show-client-icons>
+	<options.ui.muc.userlist.show-groups type="bool">true</options.ui.muc.userlist.show-groups>
+	<options.ui.muc.userlist.show-status-icons type="bool">true</options.ui.muc.userlist.show-status-icons>
+	<options.ui.muc.userlist.use-slim-group-headings type="bool">true</options.ui.muc.userlist.use-slim-group-headings>
+	<options.ui.notifications.alert-style type="QString">animate</options.ui.notifications.alert-style>
         <options.ui.decorate-windows type="bool">false</options.ui.decorate-windows>
         <options.ui.look.colors.chat.composing-color type="QColor">#006400</options.ui.look.colors.chat.composing-color>
         <options.ui.look.colors.chat.unread-message-color type="QColor">#ff0000</options.ui.look.colors.chat.unread-message-color>
