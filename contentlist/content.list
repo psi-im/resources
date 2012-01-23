@@ -1,0 +1,597 @@
+[iconsets/activities]
+name = psiplus-activities-16
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/psiplus-activities-16.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/psiplus-activities-16.html
+
+[iconsets/activities]
+name = psiplus-activities-22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/psiplus-activities-22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/psiplus-activities-22.html
+
+[iconsets/activities]
+name = rederick-activities-16
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-16.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-16.html
+
+[iconsets/activities]
+name = rederick-activities-20
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-20.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-20.html
+
+[iconsets/activities]
+name = rederick-activities-22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-22.html
+
+[iconsets/activities]
+name = rederick-activities-24
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-24.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-24.html
+
+[iconsets/activities]
+name = rederick-activities-32
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-32.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-32.html
+
+[iconsets/activities]
+name = rederick-activities-48
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-48.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-48.html
+
+[iconsets/activities]
+name = rederick-activities-64
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/activities/rederick-activities-64.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/activities/rederick-activities-64.html
+
+
+[iconsets/affiliations]
+name = Adium
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/adium-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/adium-affiliations.html
+
+[iconsets/affiliations]
+name = Award
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/award-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/award-affiliations.html
+
+[iconsets/affiliations]
+name = Balls
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/balls-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/balls-affiliations.html
+
+[iconsets/affiliations]
+name = Balls medium
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/balls-medium-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/balls-medium-affiliations.html
+
+[iconsets/affiliations]
+name = Balls small
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/balls-small-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/balls-small-affiliations.html
+
+[iconsets/affiliations]
+name = Black
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/black-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/black-affiliations.html
+
+[iconsets/affiliations]
+name = Bombus nostalgic
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/bombus-nostalgic-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/bombus-nostalgic-affiliations.html
+
+[iconsets/affiliations]
+name = Kingdom
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/kingdom-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/kingdom-affiliations.html
+
+[iconsets/affiliations]
+name = Medals
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/medals-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/medals-affiliations.html
+
+[iconsets/affiliations]
+name = Oxygen 22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/oxygen-affiliations-22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/oxygen-affiliations-22.html
+
+[iconsets/affiliations]
+name = oxygen
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/oxygen-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/oxygen-affiliations.html
+
+[iconsets/affiliations]
+name = People of color
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/people_of_color-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/people_of_color-affiliations.html
+
+[iconsets/affiliations]
+name = Planets
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/planets-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/planets-affiliations.html
+
+[iconsets/affiliations]
+name = Psi+ Affiliations
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/psiplus-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/psiplus-affiliations.html
+
+[iconsets/affiliations]
+name = QIP Infium
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/qipinfium-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/qipinfium-affiliations.html
+
+[iconsets/affiliations]
+name = Smileys
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/smileys-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/smileys-affiliations.html
+
+[iconsets/affiliations]
+name = Stellar1
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/stellar1-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/stellar1-affiliations.html
+
+[iconsets/affiliations]
+name = Tango emotes
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/tango-emotes-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/tango-emotes-affiliations.html
+
+[iconsets/affiliations]
+name = Vista halloween
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/vista-halloween-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/vista-halloween-affiliations.html
+
+[iconsets/affiliations]
+name = White
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/affiliations/white-affiliations.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/affiliations/white-affiliations.html
+
+
+[iconsets/clients]
+name = Psi+ Fingerprint - size 16
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/clients/fingerprint.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/clients/fingerprint.html
+
+[iconsets/clients]
+name = Psi+ Fingerprint - size 22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/clients/fingerprint-22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/clients/fingerprint-22.html
+
+
+[iconsets/emoticons]
+name = Android by Disabler
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/Android.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/Android.html
+
+[iconsets/emoticons]
+name = bombus2psi
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/bombus2psi.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/bombus2psi.html
+
+[iconsets/emoticons]
+name = GTalk smiles
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/GTalk-smiles.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/GTalk-smiles.html
+
+[iconsets/emoticons]
+name = Kolobok Pidgin
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/kolobok_pidgin.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/kolobok_pidgin.html
+
+[iconsets/emoticons]
+name = Kolobok/QIP Dark
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/kolobok_qip_dark.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/kolobok_qip_dark.html
+
+[iconsets/emoticons]
+name = lgs
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/lgs_15x15.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/lgs_15x15.html
+
+[iconsets/emoticons]
+name = Mail.Ru Agent v5.7.3639
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/mra-emoticons-5.7.3639.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/mra-emoticons-5.7.3639.html
+
+[iconsets/emoticons]
+name = Mail.Ru Agent
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/mra-emoticons.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/mra-emoticons.html
+
+[iconsets/emoticons]
+name = MSN Icons
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/msn.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/msn.html
+
+[iconsets/emoticons]
+name = ShinyIcons
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/shinyicons.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/shinyicons.html
+
+[iconsets/emoticons]
+name = lokeez rip (Tasha - 93 icons)
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/tasha_bombus.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/tasha_bombus.html
+
+[iconsets/emoticons]
+name = YaEmoMidget Smiles
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/yaemomidget.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/yaemomidget.html
+
+[iconsets/emoticons]
+name = Yahoo Gif
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/emoticons/yahoo_gif.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/emoticons/yahoo_gif.html
+
+
+[iconsets/moods]
+name = Nova UM
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/Nova_UM.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/Nova_UM.html
+
+[iconsets/moods]
+name = Rederick Moods - size 16
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-16.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-16.html
+
+[iconsets/moods]
+name = Rederick Moods - size 20
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-20.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-20.html
+
+[iconsets/moods]
+name = Rederick Moods - size 22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-22.html
+
+[iconsets/moods]
+name = Rederick Moods - size 24
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-24.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-24.html
+
+[iconsets/moods]
+name = Rederick Moods - size 32
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-32.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-32.html
+
+[iconsets/moods]
+name = Rederick Moods - size 48
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-48.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-48.html
+
+[iconsets/moods]
+name = Rederick Moods - size 64
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/rederick-moods-64.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/rederick-moods-64.html
+
+[iconsets/moods]
+name = silk
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/moods/silk.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/moods/silk.html
+
+
+[iconsets/roster]
+name = amirosebulb
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/amirosebulb.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/amirosebulb.html
+
+[iconsets/roster]
+name = amiroseglobe
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/amiroseglobe.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/amiroseglobe.html
+
+[iconsets/roster]
+name = AmiroseStar
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/AmiroseStar.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/AmiroseStar.html
+
+[iconsets/roster]
+name = Android
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Android.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/Android.html
+
+[iconsets/roster]
+name = archlinux
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/archlinux.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/archlinux.html
+
+[iconsets/roster]
+name = bctango_roster
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/bctango_roster.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/bctango_roster.html
+
+[iconsets/roster]
+name = berlin
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/berlin.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/berlin.html
+
+[iconsets/roster]
+name = blackroster
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/blackroster.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/blackroster.html
+
+[iconsets/roster]
+name = boss
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/boss.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/boss.html
+
+[iconsets/roster]
+name = crystal-aim
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-aim.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-aim.html
+
+[iconsets/roster]
+name = crystal-gadu
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-gadu.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-gadu.html
+
+[iconsets/roster]
+name = crystal-icq
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-icq.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-icq.html
+
+[iconsets/roster]
+name = crystal-msn
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-msn.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-msn.html
+
+[iconsets/roster]
+name = crystal-roster
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-roster.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-roster.html
+
+[iconsets/roster]
+name = crystal-service
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-service.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-service.html
+
+[iconsets/roster]
+name = crystal-sms
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-sms.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-sms.html
+
+[iconsets/roster]
+name = crystal-yahoo
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/crystal-yahoo.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/crystal-yahoo.html
+
+[iconsets/roster]
+name = debian
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/debian.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/debian.html
+
+[iconsets/roster]
+name = dictionary
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/dictionary.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/dictionary.html
+
+[iconsets/roster]
+name = email
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/email.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/email.html
+
+[iconsets/roster]
+name = Facebook
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Facebook.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/roster/Facebook.html
+
+[iconsets/roster]
+name = gentoo
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/gentoo.jisp
+
+[iconsets/roster]
+name = graphite
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/graphite.jisp
+
+[iconsets/roster]
+name = GreenWeb
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/GreenWeb.jisp
+
+[iconsets/roster]
+name = Hearts-for-iSida-bot
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Hearts-for-iSida-bot.jisp
+
+[iconsets/roster]
+name = hearts
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/hearts.jisp
+
+[iconsets/roster]
+name = hoodats
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/hoodats.jisp
+
+[iconsets/roster]
+name = icq
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/icq.jisp
+
+[iconsets/roster]
+name = individual
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/individual.jisp
+
+[iconsets/roster]
+name = Lamps
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Lamps.jisp
+
+[iconsets/roster]
+name = Lamps_blue
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Lamps_blue.jisp
+
+[iconsets/roster]
+name = Lamps_green
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Lamps_green.jisp
+
+[iconsets/roster]
+name = Lamps_red
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/Lamps_red.jisp
+
+[iconsets/roster]
+name = linux
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/linux.jisp
+
+[iconsets/roster]
+name = maj-mail3
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/maj-mail3.jisp
+
+[iconsets/roster]
+name = mrim2006
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/mrim2006.jisp
+
+[iconsets/roster]
+name = mrim2008
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/mrim2008.jisp
+
+[iconsets/roster]
+name = muc
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/muc.jisp
+
+[iconsets/roster]
+name = nuvola-roster
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/nuvola-roster.jisp
+
+[iconsets/roster]
+name = nuvola-smtp
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/nuvola-smtp.jisp
+
+[iconsets/roster]
+name = oxygen-roster-22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/oxygen-roster-22.jisp
+
+[iconsets/roster]
+name = oxygen
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/oxygen.jisp
+
+[iconsets/roster]
+name = qipinfium
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/qipinfium.jisp
+
+[iconsets/roster]
+name = rss-classic
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/rss-classic.jisp
+
+[iconsets/roster]
+name = rss
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/rss.jisp
+
+[iconsets/roster]
+name = slackware
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/slackware.jisp
+
+[iconsets/roster]
+name = stafex_psi_mod
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/stafex_psi_mod.jisp
+
+[iconsets/roster]
+name = stellar-1
+url = https://github.com/psi-im/psi/raw/master/iconsets/roster/stellar-1.jisp
+
+[iconsets/roster]
+name = stellar-crystalized-roster
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/stellar-crystalized-roster.jisp
+
+[iconsets/roster]
+name = stellar-icq
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/stellar-icq.jisp
+
+[iconsets/roster]
+name = stellar
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/stellar.jisp
+
+[iconsets/roster]
+name = suse
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/suse.jisp
+
+[iconsets/roster]
+name = thomas
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/thomas.jisp
+
+[iconsets/roster]
+name = tkabber
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/tkabber.jisp
+
+[iconsets/roster]
+name = transport
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/transport.jisp
+
+[iconsets/roster]
+name = VKontakte
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/VKontakte.jisp
+
+[iconsets/roster]
+name = VKontakte.ru
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/VKontakte.ru.jisp
+
+[iconsets/roster]
+name = weatheraqua
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/weatheraqua.jisp
+
+[iconsets/roster]
+name = white_theme
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/white_theme.jisp
+
+[iconsets/roster]
+name = wpkontakt2
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/wpkontakt2.jisp
+
+[iconsets/roster]
+name = wpkontakt3
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/wpkontakt3.jisp
+
+[iconsets/roster]
+name = yahoo
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/yahoo.jisp
+
+[iconsets/roster]
+name = YandexBigStatusIcons
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/YandexBigStatusIcons.jisp
+
+[iconsets/roster]
+name = YandexStatusIcons
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/roster/YandexStatusIcons.jisp
+
+
+[iconsets/system]
+name = Black_theme
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/blacksys.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/blacksys.html
+
+[iconsets/system]
+name = LunnaCat
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/lunnacat.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/lunnacat.html
+
+[iconsets/system]
+name = Nuvola
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/nuvola-system.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/nuvola-system.html
+
+[iconsets/system]
+name = Oxygen_theme
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/oxygen_sys.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/oxygen_sys.html
+
+[iconsets/system]
+name = Oxygen Theme - size 22
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/oxygen_sys_22.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/oxygen_sys_22.html
+
+[iconsets/system]
+name = QIP Infium
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/qipinfium_sys.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/qipinfium_sys.html
+
+[iconsets/system]
+name = Summer
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/summer-system.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/summer-system.html
+
+[iconsets/system]
+name = Tango
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/tango_system.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/tango_system.html
+
+[iconsets/system]
+name = tKabber_theme
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/tkabber_sys.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/tkabber_sys.html
+
+[iconsets/system]
+name = White_theme
+url = http://psi-dev.googlecode.com/svn/trunk/iconsets/system/whitesys.jisp
+html = http://psi-dev.googlecode.com/svn/trunk/resources/iconsets/system/whitesys.html
