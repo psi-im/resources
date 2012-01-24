@@ -430,12 +430,8 @@ name = maj-mail3
 url = https://github.com/psi-plus/resources/raw/master/iconsets/roster/maj-mail3.jisp
 
 [iconsets/roster]
-name = mrim2006
-url = https://github.com/psi-plus/resources/raw/master/iconsets/roster/mrim2006.jisp
-
-[iconsets/roster]
-name = mrim2008
-url = https://github.com/psi-plus/resources/raw/master/iconsets/roster/mrim2008.jisp
+name = mrim2012
+url = https://github.com/psi-plus/resources/raw/master/iconsets/roster/mrim2012.jisp
 
 [iconsets/roster]
 name = muc
