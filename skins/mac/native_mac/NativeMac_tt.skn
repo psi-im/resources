@@ -675,56 +675,13 @@ QTabBar::tab:!active {
 	font-size: 11px;
 }
 /* ------------------------ */
-/* End PsiTabBar --------- */</options.ui.chat.css>
+/* End PsiTabBar --------- */
+/*Last message correction*/
+QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
+      background-color: rgb(0,51,0);
+}</options.ui.chat.css>
         <options.ui.look.contactlist.use-outlined-group-headings type="bool">false</options.ui.look.contactlist.use-outlined-group-headings>
         <options.ui.look.contactlist.use-slim-group-headings type="bool">true</options.ui.look.contactlist.use-slim-group-headings>
-        <options.ui.contactlist.toolbars-state type=""></options.ui.contactlist.toolbars-state>
-        <options.ui.contactlist.toolbars.m0.actions type="QStringList">
-            <item>separator</item>
-            <item>button_options</item>
-            <item>button_status</item>
-            <item>separator</item>
-        </options.ui.contactlist.toolbars.m0.actions>
-        <options.ui.contactlist.toolbars.m0.dock.nl type="bool">true</options.ui.contactlist.toolbars.m0.dock.nl>
-        <options.ui.contactlist.toolbars.m0.dock.position type="int">3</options.ui.contactlist.toolbars.m0.dock.position>
-        <options.ui.contactlist.toolbars.m0.key type="QString">{c77dc9c2-b3c2-490b-be59-cc899d0690f8}</options.ui.contactlist.toolbars.m0.key>
-        <options.ui.contactlist.toolbars.m0.locked type="bool">true</options.ui.contactlist.toolbars.m0.locked>
-        <options.ui.contactlist.toolbars.m0.name type="QString">Buttons</options.ui.contactlist.toolbars.m0.name>
-        <options.ui.contactlist.toolbars.m0.visible type="bool">false</options.ui.contactlist.toolbars.m0.visible>
-        <options.ui.contactlist.toolbars.m1.actions type="QStringList">
-            <item>spacer</item>
-            <item>spacer</item>
-            <item>menu_add_contact</item>
-            <item>spacer</item>
-            <item>enable_groups</item>
-            <item>menu_account_setup</item>
-            <item>menu_options</item>
-            <item>spacer</item>
-            <item>spacer</item>
-        </options.ui.contactlist.toolbars.m1.actions>
-        <options.ui.contactlist.toolbars.m1.dock.nl type="bool">true</options.ui.contactlist.toolbars.m1.dock.nl>
-        <options.ui.contactlist.toolbars.m1.dock.position type="int">2</options.ui.contactlist.toolbars.m1.dock.position>
-        <options.ui.contactlist.toolbars.m1.key type="QString">{91ca9b19-0eb7-4215-b999-4eeffdaae252}</options.ui.contactlist.toolbars.m1.key>
-        <options.ui.contactlist.toolbars.m1.locked type="bool">true</options.ui.contactlist.toolbars.m1.locked>
-        <options.ui.contactlist.toolbars.m1.name type="QString">Show contacts</options.ui.contactlist.toolbars.m1.name>
-        <options.ui.contactlist.toolbars.m1.visible type="bool">true</options.ui.contactlist.toolbars.m1.visible>
-        <options.ui.contactlist.toolbars.m2.actions type="QStringList">
-            <item>event_notifier</item>
-        </options.ui.contactlist.toolbars.m2.actions>
-        <options.ui.contactlist.toolbars.m2.dock.nl type="bool">true</options.ui.contactlist.toolbars.m2.dock.nl>
-        <options.ui.contactlist.toolbars.m2.dock.position type="int">3</options.ui.contactlist.toolbars.m2.dock.position>
-        <options.ui.contactlist.toolbars.m2.key type="QString">{ada6b447-ff51-4092-9f3f-4c3035e6c64e}</options.ui.contactlist.toolbars.m2.key>
-        <options.ui.contactlist.toolbars.m2.locked type="bool">true</options.ui.contactlist.toolbars.m2.locked>
-        <options.ui.contactlist.toolbars.m2.name type="QString">Event notifier</options.ui.contactlist.toolbars.m2.name>
-        <options.ui.contactlist.toolbars.m2.visible type="bool">false</options.ui.contactlist.toolbars.m2.visible>
-        <options.ui.contactlist.toolbars.m3.actions type=""></options.ui.contactlist.toolbars.m3.actions>
-        <options.ui.contactlist.toolbars.m3.dock.nl type=""></options.ui.contactlist.toolbars.m3.dock.nl>
-        <options.ui.contactlist.toolbars.m3.dock.position type=""></options.ui.contactlist.toolbars.m3.dock.position>
-        <options.ui.contactlist.toolbars.m3.key type=""></options.ui.contactlist.toolbars.m3.key>
-        <options.ui.contactlist.toolbars.m3.locked type=""></options.ui.contactlist.toolbars.m3.locked>
-        <options.ui.contactlist.toolbars.m3.name type=""></options.ui.contactlist.toolbars.m3.name>
-        <options.ui.contactlist.toolbars.m3.visible type=""></options.ui.contactlist.toolbars.m3.visible>
-        <options.ui.save.toolbars-state type="QByteArray">AAAA/wAAAAD9AAAAAAAAAKgAAALAAAAABAAAAAQAAAAIAAAACPwAAAALAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7AGMANwA3AGQAYwA5AGMAMgAtAGIAMwBjADIALQA0ADkAMABiAC0AYgBlADUAOQAtAGMAYwA4ADkAOQBkADAANgA5ADAAZgA4AH0AAAAAAP////8AAAAAAAAAAAAAAAMAAAABAAAAbABtAGEAaQBuAHcAaQBuAC0AdABvAG8AbABiAGEAcgAtAHsAOQAxAGMAYQA5AGIAMQA5AC0AMABlAGIANwAtADQAMgAxADUALQBiADkAOQA5AC0ANABlAGUAZgBmAGQAYQBhAGUAMgA1ADIAfQEAAAAAAAAAcQAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7AGEAZABhADYAYgA0ADQANwAtAGYAZgA1ADEALQA0ADAAOQAyAC0AOQBmADMAZgAtADQAYwAzADAAMwA1AGUANgBjADYANABlAH0AAAAAAP////8AAAAAAAAAAA==</options.ui.save.toolbars-state>
         <options.ui.tabs.grouping type="QString">CM</options.ui.tabs.grouping>
         <options.iconsets.activities type="QString">default</options.iconsets.activities>
         <options.iconsets.clients type="QString">default</options.iconsets.clients>

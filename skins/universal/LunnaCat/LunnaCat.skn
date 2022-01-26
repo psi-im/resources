@@ -797,61 +797,13 @@ QToolButton#closeButton {
 	height: 10px;
 	margin-right: 2px;
 	margin-top: 2px;
-	margin-bottom: 2px;}</options.ui.chat.css>
+	margin-bottom: 2px;}
+/*Last message correction*/
+QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
+      background-color: rgb(0,0,153);
+}</options.ui.chat.css>
         <options.ui.look.contactlist.use-outlined-group-headings type="bool">false</options.ui.look.contactlist.use-outlined-group-headings>
         <options.ui.look.contactlist.use-slim-group-headings type="bool">true</options.ui.look.contactlist.use-slim-group-headings>
-        <options.ui.contactlist.toolbars-state type=""></options.ui.contactlist.toolbars-state>
-        <options.ui.contactlist.toolbars.m0.actions type="QStringList">
-            <item>menu_add_contact</item>
-            <item>spacer</item>
-            <item>menu_account_setup</item>
-            <item>spacer</item>
-            <item>menu_disco</item>
-            <item>spacer</item>
-            <item>menu_xml_console</item>
-            <item>spacer</item>
-            <item>menu_change_profile</item>
-            <item>spacer</item>
-            <item>view_groups</item>
-            <item>spacer</item>
-            <item>help_about</item>
-        </options.ui.contactlist.toolbars.m0.actions>
-        <options.ui.contactlist.toolbars.m0.dock.nl type="bool">true</options.ui.contactlist.toolbars.m0.dock.nl>
-        <options.ui.contactlist.toolbars.m0.dock.position type="int">2</options.ui.contactlist.toolbars.m0.dock.position>
-        <options.ui.contactlist.toolbars.m0.key type="QString">{fd4f2bcc-c40c-4bad-9a0a-6ce0a6620145}</options.ui.contactlist.toolbars.m0.key>
-        <options.ui.contactlist.toolbars.m0.locked type="bool">true</options.ui.contactlist.toolbars.m0.locked>
-        <options.ui.contactlist.toolbars.m0.name type="QString">LunnaCat Advanced Panel</options.ui.contactlist.toolbars.m0.name>
-        <options.ui.contactlist.toolbars.m0.visible type="bool">false</options.ui.contactlist.toolbars.m0.visible>
-        <options.ui.contactlist.toolbars.m1.actions type="QStringList">
-            <item>event_notifier</item>
-        </options.ui.contactlist.toolbars.m1.actions>
-        <options.ui.contactlist.toolbars.m1.dock.nl type="bool">true</options.ui.contactlist.toolbars.m1.dock.nl>
-        <options.ui.contactlist.toolbars.m1.dock.position type="int">2</options.ui.contactlist.toolbars.m1.dock.position>
-        <options.ui.contactlist.toolbars.m1.key type="QString">{52669374-eefe-4f4e-8104-f2765ace3073}</options.ui.contactlist.toolbars.m1.key>
-        <options.ui.contactlist.toolbars.m1.locked type="bool">true</options.ui.contactlist.toolbars.m1.locked>
-        <options.ui.contactlist.toolbars.m1.name type="QString">LunnaCat Notify Panel</options.ui.contactlist.toolbars.m1.name>
-        <options.ui.contactlist.toolbars.m1.visible type="bool">true</options.ui.contactlist.toolbars.m1.visible>
-        <options.ui.contactlist.toolbars.m2.actions type="QStringList">
-            <item>button_options</item>
-            <item>menu_options</item>
-            <item>button_status</item>
-            <item>menu_join_groupchat</item>
-            <item>show_offline</item>
-        </options.ui.contactlist.toolbars.m2.actions>
-        <options.ui.contactlist.toolbars.m2.dock.nl type="bool">true</options.ui.contactlist.toolbars.m2.dock.nl>
-        <options.ui.contactlist.toolbars.m2.dock.position type="int">2</options.ui.contactlist.toolbars.m2.dock.position>
-        <options.ui.contactlist.toolbars.m2.key type="QString">{3b7d4a97-0ff3-4118-9eb7-aa664bfd9b9c}</options.ui.contactlist.toolbars.m2.key>
-        <options.ui.contactlist.toolbars.m2.locked type="bool">true</options.ui.contactlist.toolbars.m2.locked>
-        <options.ui.contactlist.toolbars.m2.name type="QString">LunnaCat General Panel</options.ui.contactlist.toolbars.m2.name>
-        <options.ui.contactlist.toolbars.m2.visible type="bool">true</options.ui.contactlist.toolbars.m2.visible>
-        <options.ui.contactlist.toolbars.m3.actions type=""></options.ui.contactlist.toolbars.m3.actions>
-        <options.ui.contactlist.toolbars.m3.dock.nl type=""></options.ui.contactlist.toolbars.m3.dock.nl>
-        <options.ui.contactlist.toolbars.m3.dock.position type=""></options.ui.contactlist.toolbars.m3.dock.position>
-        <options.ui.contactlist.toolbars.m3.key type=""></options.ui.contactlist.toolbars.m3.key>
-        <options.ui.contactlist.toolbars.m3.locked type=""></options.ui.contactlist.toolbars.m3.locked>
-        <options.ui.contactlist.toolbars.m3.name type=""></options.ui.contactlist.toolbars.m3.name>
-        <options.ui.contactlist.toolbars.m3.visible type=""></options.ui.contactlist.toolbars.m3.visible>
-        <options.ui.save.toolbars-state type="QByteArray">AAAA/wAAAAD9AAAAAAAAAMEAAAKKAAAABAAAAAQAAAAIAAAACPwAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAEAAABsAG0AYQBpAG4AdwBpAG4ALQB0AG8AbwBsAGIAYQByAC0AewBmAGQANABmADIAYgBjAGMALQBjADQAMABjAC0ANABiAGEAZAAtADkAYQAwAGEALQA2AGMAZQAwAGEANgA2ADIAMAAxADQANQB9AAAAAAD/////AAAAAAAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAABAAAAbABtAGEAaQBuAHcAaQBuAC0AdABvAG8AbABiAGEAcgAtAHsAMwBiADcAZAA0AGEAOQA3AC0AMABmAGYAMwAtADQAMQAxADgALQA5AGUAYgA3AC0AYQBhADYANgA0AGIAZgBkADkAYgA5AGMAfQEAAAAA/////wAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7ADUAMgA2ADYAOQAzADcANAAtAGUAZQBmAGUALQA0AGYANABlAC0AOAAxADAANAAtAGYAMgA3ADYANQBhAGMAZQAzADAANwAzAH0AAAAAAP////8AAAAAAAAAAA==</options.ui.save.toolbars-state>
         <options.ui.tabs.grouping type="QString">CM</options.ui.tabs.grouping>
         <options.iconsets.clients type="QString">fingerprint.jisp</options.iconsets.clients>
         <options.iconsets.custom-status type=""></options.iconsets.custom-status>

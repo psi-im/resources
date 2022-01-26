@@ -53,77 +53,17 @@ QLabel { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f5f5f5
 
 QToolButton::menu-indicator { image: none; }
 
-QTextEdit { background-color: #f5f5f5; border: 3px solid #c8c8c8; border-bottom-color: #c8c8c8; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }</options.ui.chat.css>
+QTextEdit { background-color: #f5f5f5; border: 3px solid #c8c8c8; border-bottom-color: #c8c8c8; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+/*Last message correction*/
+QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
+      background-color: rgb(0,51,0);
+}</options.ui.chat.css>
         <options.ui.look.contactlist.use-outlined-group-headings type="bool">true</options.ui.look.contactlist.use-outlined-group-headings>
         <options.ui.look.contactlist.use-slim-group-headings type="bool">true</options.ui.look.contactlist.use-slim-group-headings>
         <options.ui.look.font.chat type="QString">Lucida Grande,12,-1,5,50,0,0,0,0,0</options.ui.look.font.chat>
         <options.ui.look.font.contactlist type="QString">Lucida Grande,11,-1,5,50,0,0,0,0,0</options.ui.look.font.contactlist>
         <options.ui.look.font.message type="QString">Lucida Grande,12,-1,5,50,0,0,0,0,0</options.ui.look.font.message>
         <options.ui.look.font.passive-popup type="QString">Lucida Grande,12,-1,5,50,0,0,0,0,0</options.ui.look.font.passive-popup>
-        <options.ui.contactlist.toolbars-state type="QByteArray">AAAA/wAAAAD9AAAAAAAAAOQAAAKsAAAABAAAAAQAAAAIAAAACPwAAAAEAAAAAgAAAAEAAABsAG0AYQBpAG4AdwBpAG4ALQB0AG8AbwBsAGIAYQByAC0AewBjADMAOABkADkAMwAwADcALQAxADMAZQBkAC0ANAA5AGUAMQAtAGIAZQA3ADMALQAwADIAYwA1AGIAMwA0AGUAZgAyAGQANgB9AQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7ADEAMwAwAGIAMwA1ADYAYwAtAGYAZQA3ADUALQA0AGMANAA5AC0AOAA2AGQANQAtADcAYQBkADYAZgAzADUAMwA4AGQANAA2AH0BAAAAAP////8AAAAAAAAAAAAAAAMAAAABAAAAbABtAGEAaQBuAHcAaQBuAC0AdABvAG8AbABiAGEAcgAtAHsANgBkADIAMgBhADkANwBmAC0AMgA3ADYAZgAtADQAMABjADAALQA5AGQAYwAwAC0AMgAwAGIAMgA2ADkANgBmAGMAYwA5AGIAfQEAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAABsAG0AYQBpAG4AdwBpAG4ALQB0AG8AbwBsAGIAYQByAC0AewA2ADgAOAA5ADYAOAA5ADYALQAyAGQAMgAzAC0ANAAwAGYAMwAtADkANQBkADcALQA2AGYAZQBjAGQAYgAwADgANwAxADYAMgB9AAAAAAD/////AAAAAAAAAAA=</options.ui.contactlist.toolbars-state>
-        <options.ui.contactlist.toolbars.m0.actions type="QStringList">
-            <item>spacer</item>
-            <item>status_online</item>
-            <item>spacer</item>
-            <item>status_away</item>
-            <item>spacer</item>
-            <item>status_xa</item>
-            <item>spacer</item>
-            <item>status_dnd</item>
-            <item>spacer</item>
-            <item>status_offline</item>
-            <item>spacer</item>
-        </options.ui.contactlist.toolbars.m0.actions>
-        <options.ui.contactlist.toolbars.m0.dock.nl type="bool">true</options.ui.contactlist.toolbars.m0.dock.nl>
-        <options.ui.contactlist.toolbars.m0.dock.position type="int">2</options.ui.contactlist.toolbars.m0.dock.position>
-        <options.ui.contactlist.toolbars.m0.key type="QString">{c38d9307-13ed-49e1-be73-02c5b34ef2d6}</options.ui.contactlist.toolbars.m0.key>
-        <options.ui.contactlist.toolbars.m0.locked type="bool">true</options.ui.contactlist.toolbars.m0.locked>
-        <options.ui.contactlist.toolbars.m0.name type="QString">Status</options.ui.contactlist.toolbars.m0.name>
-        <options.ui.contactlist.toolbars.m0.visible type="bool">false</options.ui.contactlist.toolbars.m0.visible>
-        <options.ui.contactlist.toolbars.m1.actions type="QStringList">
-            <item>spacer</item>
-            <item>menu_add_contact</item>
-            <item>spacer</item>
-            <item>button_options</item>
-            <item>spacer</item>
-            <item>show_offline</item>
-            <item>spacer</item>
-        </options.ui.contactlist.toolbars.m1.actions>
-        <options.ui.contactlist.toolbars.m1.dock.nl type="bool">true</options.ui.contactlist.toolbars.m1.dock.nl>
-        <options.ui.contactlist.toolbars.m1.dock.position type="int">3</options.ui.contactlist.toolbars.m1.dock.position>
-        <options.ui.contactlist.toolbars.m1.key type="QString">{6d22a97f-276f-40c0-9dc0-20b2696fcc9b}</options.ui.contactlist.toolbars.m1.key>
-        <options.ui.contactlist.toolbars.m1.locked type="bool">true</options.ui.contactlist.toolbars.m1.locked>
-        <options.ui.contactlist.toolbars.m1.name type="QString">Кнопки</options.ui.contactlist.toolbars.m1.name>
-        <options.ui.contactlist.toolbars.m1.visible type="bool">true</options.ui.contactlist.toolbars.m1.visible>
-        <options.ui.contactlist.toolbars.m2.actions type="QStringList">
-            <item>spacer</item>
-            <item>show_offline</item>
-            <item>spacer</item>
-            <item>show_statusmsg</item>
-            <item>spacer</item>
-            <item>menu_join_groupchat</item>
-            <item>spacer</item>
-            <item>show_agents</item>
-            <item>spacer</item>
-            <item>enable_groups</item>
-            <item>spacer</item>
-        </options.ui.contactlist.toolbars.m2.actions>
-        <options.ui.contactlist.toolbars.m2.dock.nl type="bool">true</options.ui.contactlist.toolbars.m2.dock.nl>
-        <options.ui.contactlist.toolbars.m2.dock.position type="int">2</options.ui.contactlist.toolbars.m2.dock.position>
-        <options.ui.contactlist.toolbars.m2.key type="QString">{130b356c-fe75-4c49-86d5-7ad6f3538d46}</options.ui.contactlist.toolbars.m2.key>
-        <options.ui.contactlist.toolbars.m2.locked type="bool">true</options.ui.contactlist.toolbars.m2.locked>
-        <options.ui.contactlist.toolbars.m2.name type="QString">Показ контактов</options.ui.contactlist.toolbars.m2.name>
-        <options.ui.contactlist.toolbars.m2.visible type="bool">false</options.ui.contactlist.toolbars.m2.visible>
-        <options.ui.contactlist.toolbars.m3.actions type="QStringList">
-            <item>event_notifier</item>
-        </options.ui.contactlist.toolbars.m3.actions>
-        <options.ui.contactlist.toolbars.m3.dock.nl type="bool">true</options.ui.contactlist.toolbars.m3.dock.nl>
-        <options.ui.contactlist.toolbars.m3.dock.position type="int">3</options.ui.contactlist.toolbars.m3.dock.position>
-        <options.ui.contactlist.toolbars.m3.key type="QString">{68896896-2d23-40f3-95d7-6fecdb087162}</options.ui.contactlist.toolbars.m3.key>
-        <options.ui.contactlist.toolbars.m3.locked type="bool">true</options.ui.contactlist.toolbars.m3.locked>
-        <options.ui.contactlist.toolbars.m3.name type="QString">Обработка событий</options.ui.contactlist.toolbars.m3.name>
-        <options.ui.contactlist.toolbars.m3.visible type="bool">false</options.ui.contactlist.toolbars.m3.visible>
-        <options.ui.save.toolbars-state type="QByteArray">AAAA/wAAAAD9AAAAAAAAANEAAAKfAAAABAAAAAQAAAAIAAAACPwAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7AGMAMwA4AGQAOQAzADAANwAtADEAMwBlAGQALQA0ADkAZQAxAC0AYgBlADcAMwAtADAAMgBjADUAYgAzADQAZQBmADIAZAA2AH0AAAAAAP////8AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAEAAABsAG0AYQBpAG4AdwBpAG4ALQB0AG8AbwBsAGIAYQByAC0AewAxADMAMABiADMANQA2AGMALQBmAGUANwA1AC0ANABjADQAOQAtADgANgBkADUALQA3AGEAZAA2AGYAMwA1ADMAOABkADQANgB9AAAAAAD/////AAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAQAAAGwAbQBhAGkAbgB3AGkAbgAtAHQAbwBvAGwAYgBhAHIALQB7ADYAZAAyADIAYQA5ADcAZgAtADIANwA2AGYALQA0ADAAYwAwAC0AOQBkAGMAMAAtADIAMABiADIANgA5ADYAZgBjAGMAOQBiAH0BAAAAAP////8AAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAEAAABsAG0AYQBpAG4AdwBpAG4ALQB0AG8AbwBsAGIAYQByAC0AewA2ADgAOAA5ADYAOAA5ADYALQAyAGQAMgAzAC0ANAAwAGYAMwAtADkANQBkADcALQA2AGYAZQBjAGQAYgAwADgANwAxADYAMgB9AQAAAAD/////AAAAAAAAAAA=</options.ui.save.toolbars-state>
         <options.ui.tabs.grouping type="QString">CM</options.ui.tabs.grouping>
         <options.iconsets.activities type="QString">psiplus-activities.jisp</options.iconsets.activities>
         <options.iconsets.clients type="QString">fingerprint.jisp</options.iconsets.clients>
