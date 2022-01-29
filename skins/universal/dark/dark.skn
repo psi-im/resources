@@ -1,4 +1,4 @@
-<skin author="VitoZz" name="dark" version="1.0" path="C:/Users/vital/AppData/Roaming/Psi+/skins">
+<skin author="VitoZz" name="dark" version="1.1" path="C:/Users/vital/AppData/Roaming/Psi+/skins">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#2c9dff</options.ui.look.colors.chat.mailto-color>
@@ -978,10 +978,10 @@ QSplitter::handle:horizontal:pressed { background-color: #202020 }</options.ui.c
         <options.ui.tabs.show-tab-close-buttons type="bool">true</options.ui.tabs.show-tab-close-buttons>
         <options.ui.tabs.use-tabs type="bool">true</options.ui.tabs.use-tabs>
         <options.ui.contactlist.show.self-contact type="bool">false</options.ui.contactlist.show.self-contact>
-        <options.ui.notifications.passive-popups.css type="QString">QFrame {background-color: #212121 }
-QToolButton { background-color: #5b5b5b; border: 1px solid blue; border-radius: 2px}
-QToolButton:hover { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #5b5b5b, stop: 1 black)}
-QToolButton:pressed { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 black, stop: 1 #5b5b5b )}</options.ui.notifications.passive-popups.css>
+        <options.ui.notifications.passive-popups.css type="QString">QFrame { color: #bcbcbc; background-color: #212121 }
+QToolButton { background-color: #5b5b5b; border: 1px solid #212121; border-radius: 2px}
+QToolButton:hover { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #5b5b5b, stop: 1 #212121)}
+QToolButton:pressed { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #212121, stop: 1 #5b5b5b )}</options.ui.notifications.passive-popups.css>
         <options.ui.contactlist.show-roster-avatar-frame type="bool">true</options.ui.contactlist.show-roster-avatar-frame>
         <options.ui.tabs.show-tab-icons type="bool">true</options.ui.tabs.show-tab-icons>
         <options.ui.muc.show-client-icons type="bool">true</options.ui.muc.show-client-icons>
