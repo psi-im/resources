@@ -292,7 +292,7 @@ QFrame#tv_affiliations {
      background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9); 
      border: 1px solid #4a4949; 
 }
-/*Last message correction*/
+/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
       background-color: rgb(0,51,0);
 }

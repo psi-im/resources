@@ -33,7 +33,7 @@
         <options.ui.contactlist.avatars.size type="int">24</options.ui.contactlist.avatars.size>
         <options.ui.contactlist.avatars.use-default-avatar type="bool">false</options.ui.contactlist.avatars.use-default-avatar>
         <options.ui.contactlist.show-client-icons type="bool">true</options.ui.contactlist.show-client-icons>
-        <options.ui.chat.css type="QString">/*Last message correction*/
+        <options.ui.chat.css type="QString">/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
       background-color: rgb(0,51,0);
 }
@@ -53,14 +53,13 @@ QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
         <options.ui.chat.disable-paste-send type="bool">false</options.ui.chat.disable-paste-send>
         <options.ui.chat.use-expanding-line-edit type="bool">false</options.ui.chat.use-expanding-line-edit>
         <options.ui.chat.use-message-icons type="bool">true</options.ui.chat.use-message-icons>
-        <options.ui.contactlist.css type="QString">/* frame of avatar - general settings */
-/* фрейм с аватаром - общие настройки */
+        <options.ui.contactlist.css type="QString">
+/* avatar frame - general settings */
 RosterAvatarFrame * {
 	margin: 1px;
 }
 
-/* frame of avatar - avatar */
-/* фрейм с аватаром - аватар */
+/* avatar frame - avatar */
 QLabel#lb_avatar {
 	margin-left: 0px;
 	margin-top: 2px;
@@ -69,8 +68,7 @@ QLabel#lb_avatar {
 	border-radius: 3px;
 }
 
-/* frame of avatar - nick */
-/* фрейм с аватаром - ник */
+/* avatar frame - nick */
 QLabel#lb_nick {
 	margin: 2px;
 	margin-right: 1px;
@@ -79,8 +77,7 @@ QLabel#lb_nick {
 	border-radius: 3px;
 }
 
-/* frame of avatar - buttons of PEP and status */
-/* фрейм с аватаром - кнопки PEP и статуса */
+/* avatar frame - buttons of PEP and status */
 QToolButton#tb_status, #tb_mood, #tb_activity {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -93,14 +90,12 @@ QToolButton#tb_status {
 	margin-bottom: 1px;
 }
 
-/* frame of avatar - button of status, arrow */
-/* фрейм с аватаром - кнопка статуса, стрелка */
+/* avatar frame - button of status, arrow */
 QToolButton#tb_status::menu-indicator {
 	background: argb(0,0,0,0);
 }
 
-/* frame of avatar - field of status message */
-/* фрейм с аватаром - строка статусного сообщения */
+/* avatar frame - field of status message */
 QLineEdit#le_status_text {
 	margin-right: 0px;
 	margin-bottom: 2px;

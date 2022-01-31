@@ -60,7 +60,7 @@ QMenu::item:selected {background-color: #e9edff; border-color: darkblue;}
 QMenu::separator { height: 2px; background: lightblue;  }
 QMenu::item:checked { background-color: #e9edff }
 TabDlg { background-color: #b4ccff; }
-/*Last message correction*/
+/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
       background-color: rgb(0,51,0);
 }</options.ui.chat.css>
