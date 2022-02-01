@@ -35,20 +35,20 @@
         <options.ui.contactlist.show-client-icons type="bool">true</options.ui.contactlist.show-client-icons>
         <options.ui.chat.css type="QString">TabDlg { background-color: #212121 }
 
-/* общий фрейм */
+/* common frame */
 QFrame {
 	color: #bcbcbc;
 	background-color: #212121;
 	border: 1px solid #5b5b5b;
 	padding: 0px }
 
-/* верхний фрейм */
+/* top frame */
 QFrame#topFrame {
 	margin: 0px;
 	margin-bottom: 2px;
 	border: 1px solid #2d2d2d }
 
-/* кнопка топика */
+/* topic button */
 QPushButton#pb_topic {
 	margin: 0px;
 	height: 16px;
@@ -65,19 +65,19 @@ QPushButton#pb_topic:hover {
 
 QPushButton#pb_topic:pressed { background-color: #212121 }
 
-/* диалог топика */
+/* topic dialog */
 QWidget#pte_topic {
 	color: #bcbcbc;
 	background-color: #212121;
 	border: 1px inset #5b5b5b;
 	border-radius: 3px }
 
-/* иконка статуса */
+/* status icon */
 QLabel#lb_status {
 	border: 0px;
 	background: #212121 }
 
-/* топик / джид */
+/* topic / JID */
 ActionLineEdit#le_topic,#le_jid {
 	color: #bcbcbc;
 	background-color: #2d2d2d;
@@ -86,7 +86,7 @@ ActionLineEdit#le_topic,#le_jid {
 	border-radius: 3px;
 	padding: 2px }
 
-/* джид - ниспадающее меню */
+/* JID - dropdown menu */
 QComboBox::drop-down#le_jid {
 	height: 20px;
 	border: 1px solid #5b5b5b;
@@ -105,7 +105,7 @@ QComboBox::focus#le_jid QAbstractItemView {
 	border-color: black;
 	border: 1px }
 
-/* диалоговое окно букмарок */
+/* bookmark dialog box */
 QDialog { background-color: #212121 }
 
 QDialog>QFrame {
@@ -120,12 +120,12 @@ QDialog>QLineEdit {
 
 QDialog>QCheckBox { background: #212121 }
 
-/* иконка клиента */
+/* client icon */
 QLabel#lb_client {
 	border: 0px;
 	background: #212121 }
 
-/* счётчик символов */
+/* character counter */
 QLabel#lb_count {
 	color: #bcbcbc;
 	background:#212121;
@@ -135,7 +135,7 @@ QLabel#lb_count {
 	border-radius: 3px;
 	padding: 2px }
 
-/* имя аккаунта */
+/* account name */
 QLabel#lb_ident {
 	color: #bcbcbc;
 	background: #212121;
@@ -145,7 +145,7 @@ QLabel#lb_ident {
 	border-radius: 3px;
 	padding: 2px }
 
-/* чатлог */
+/* chatlog */
 QFrame#log * {
 	color: #bcbcbc;
 	background-color: #2d2d2d;
@@ -153,7 +153,7 @@ QFrame#log * {
 	border-radius: 3px;
 	padding: 2px }
 
-/* ростер конференции */
+/* conference roster */
 QFrame#lv_users {
 	border: 1px upset #5b5b5b;
 	border-radius: 3px;
@@ -162,12 +162,12 @@ QFrame#lv_users {
 	selection-color: #bcbcbc;
 	selection-background-color: #2d2d2d }
 
-/* нижний фрейм */
+/* bottom frame */
 QFrame#bottomFrame {
 	margin: 0px;
 	border: 1px }
 
-/* поле ввода команд */
+/* command input field */
 QWidget#mini_prompt {
 	margin-top: -8px;
 	margin-left: 1px;
@@ -175,7 +175,7 @@ QWidget#mini_prompt {
 	color: #bcbcbc;
 	background: #2d2d2d }
 
-/* строка ввода */
+/* input line */
 QWidget#bottomFrame>QWidget>QTextEdit {
 	margin: 0px;
 	color: #bcbcbc;
@@ -183,7 +183,7 @@ QWidget#bottomFrame>QWidget>QTextEdit {
 	border: 1px inset #5b5b5b;
 	border-radius: 3px }
 
-/* кнопка отправки сообщения */
+/* send message button */
 QPushButton#pb_send {
 	margin: 0px;
 	background-color: #2d2d2d;
@@ -192,21 +192,21 @@ QPushButton#pb_send {
 
 QPushButton#pb_send:hover {	background-color: #5b5b5b }
 
-QPushButton#pb_send:hover:pressed {  background-color:  #212121 }
+QPushButton#pb_send:hover:pressed { background-color: #212121 }
 
-/* аватар */
+/* avatar */
 QLabel#avatar {
 	margin: 0px;
 	background: #212121 }
 
-/* централ-бар */
+/* central bar */
 QToolBar { 
 	background-color: #212121;
 	border: 1px solid #5b5b5b;
 	border-radius: 4px;
 	padding: 2px }
 
-/* кнопки централ-бара и прочие */
+/* central bar buttons and more */
 QToolButton {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -225,9 +225,9 @@ QToolButton:checked {
 
 QToolButton::menu-indicator {image: url();}
 
-/* вертикальный сплиттер */
+/* vertical splitter */
 QSplitter::handle:vertical {
-	background-color: #2d2d2d;  
+	background-color: #2d2d2d;
 	border-left: 1px outset #212121;
 	border-right: 1px outset #212121 }
 
@@ -235,27 +235,27 @@ QSplitter::handle:vertical:hover { background: #5b5b5b }
 
 QSplitter::handle:vertical:pressed { background-color: #2d2d2d }
 
-/* горизонтальный сплиттер */
+/* horizontal splitter */
 QSplitter::handle:horizontal { background-color:#212121; border: 1px }
 
 QSplitter::handle:horizontal:hover {
-	background-color: #2d2d2d;  
+	background-color: #2d2d2d;
 	border-left: 1px outset #212121;
 	border-right: 1px outset #212121 }
 
 QSplitter::handle:horizontal:pressed { background-color: #2d2d2d }
 
-/* таб-бар */
+/* tab bar */
 PsiTabBar {
 	background: #212121;
 	background-color: #212121;
 	border: 1px solid #5b5b5b;
 	alignment: center }
 
-/* таб-бар*/
+/* tab bar - main font color */
 TabDlg { color: #bcbcbc; background-color: #212121 }
 
-/* Inactive tab*/
+/* Inactive tab */
 QTabBar::tab {
 	border: 2px solid #5b5b5b;
 	border-bottom-color: #212121;
@@ -269,7 +269,7 @@ QTabBar::tab:selected, QTabBar::tab:hover {
 	border: 2px outset #5b5b5b;
 	border-bottom-color: #212121;
 	background: #212121;
-	background-color: #212121  }
+	background-color: #212121 }
 
 QTabBar::tab:!selected {
 	color: #5b5b5b;
@@ -277,7 +277,7 @@ QTabBar::tab:!selected {
 	border-bottom-color: #212121;
 	background-color: 2d2d2d }
 
-/* окно настроек конференции - табы, рамка, кнопки, список джидов */
+/* conference settings window - tabs, frame, buttons, list of JIDs */
 QWidget#MUCConfig>QTabBar::tab {
 	color: #bcbcbc;
 	margin-bottom: 3px;
@@ -317,7 +317,7 @@ QFrame#tv_affiliations {
 	border-radius: 3px;
 	padding: 2px }
 
-/* окно настроек конференции - фильтр */
+/* conference settings window - filter */
 QLabel#label	{
 	color: #bcbcbc;
 	background:#212121 }
@@ -329,22 +329,22 @@ QLineEdit#le_filter {
 	border-radius: 3px;
 	padding: 2px;}
 
-/* окно настроек конференции - получение настроек */
+/* conference settings window - getting settings */
 QFrame#lb_general_message {
 	color: #bcbcbc;
 	font-size: 18px;
 	background-color: #212121 }
 
-/* окно настроек конференции - настройки, внешний и внутренний фрейм */
+/* conference settings window - settings, external and internal frame */
 QWidget#tab_general QWidget { background: #212121 }
 
-/* окно настроек конференции - настройки, внутренний фрейм */
+/* conference settings window - settings, internal frame */
 QStackedWidget#sw_general {
 	border: 1px inset #5b5b5b;
 	border-radius: 3px;
 	padding: 1px }
 
-/* окно настроек конференции - кнопка уничтожения конференции */
+/* conference settings window - button to delete the conference */
 QWidget#tab_general QPushButton#pb_destroy {
 	background: #212121;
 	border: 1px outset #5b5b5b;
@@ -358,10 +358,10 @@ QWidget#tab_general QPushButton#pb_destroy:hover {
 
 QWidget#tab_general QPushButton#pb_destroy:pressed { background-color: #5d5d5d }
 
-/* окно настроек конференции - настройки, названия опций */
+/* conference settings window - settings, option names */
 QWidget#tab_general QLabel { background: #212121 }
 
-/* окно настроек конференции - настройки, поля ввода */
+/* conference settings window - settings, input fields */
 QWidget#tab_general QLineEdit {
 	color: #bcbcbc;
 	background: #212121;
@@ -369,7 +369,7 @@ QWidget#tab_general QLineEdit {
 	border-radius: 3px;
 	padding: 2px }
 
-/* окно настроек конференции - настройки, ниспадающие меню */
+/* conference settings window - settings, drop-down menus */
 QWidget#tab_general QComboBox {
 	color: #bcbcbc;
 	background: #212121;
@@ -390,7 +390,7 @@ QWidget#tab_general QComboBox QAbstractItemView {
 	background-color: #212121;
 	border: 1px outset #5b5b5b }
 
-/* скролл-бары */
+/* scroll bars */
 QScrollBar:vertical {
 	margin: 16px 2px 16px 2px;
 	background-color: #2d2d2d;
@@ -405,7 +405,7 @@ QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
 	border: 1px outset #444444;
 	border-radius: 2px }
 
-/* скролл-бар, верхняя стрелка*/
+/* scroll bar, top arrow */
 QScrollBar::sub-line:vertical {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -417,7 +417,7 @@ QScrollBar::sub-line:vertical {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, нижняя стрелка*/
+/* scroll bar, bottom arrow */
 QScrollBar::add-line:vertical {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -429,7 +429,7 @@ QScrollBar::add-line:vertical {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, левая стрелка*/
+/* scroll bar, left arrow */
 QScrollBar::sub-line:horizontal {
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -441,7 +441,7 @@ QScrollBar::sub-line:horizontal {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, правая стрелка*/
+/* scroll bar, right arrow */
 QScrollBar::add-line:horizontal {
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -453,30 +453,30 @@ QScrollBar::add-line:horizontal {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, стрелки при наведении мышкой */
+/* scrollbar, mouse hover arrows */
 QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover { background-color: #5b5b5b }
 
 QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover { background-color: #5b5b5b }
 
-/* скролл-бар - подложка */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal  {
-	background-color:  #212121;
+/* scroll bar - background */
+QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
+	background-color: #212121;
 	border: 1px solid #444444 }
 
 Q3ListView * { background-color: #212121 }
 
-/* всплывающие подсказки */
+/* tooltips */
 QToolTip {
 	color: #bcbcbc;
 	background-color: #212121;
 	border: 1px solid #5b5b5b }
 
-/* диалоги предупреждения очистки чата и закрытия при непрочитанном сообщении */
+/* dialogs for warning clearing chat and closing when unread message */
 QMessageBox {
 	color: #bcbcbc;
 	background-color: #212121 }
 
-/* кнопки диалоговых окон */
+/* dialog box buttons */
 QPushButton {
 	color: #bcbcbc;
 	height: 25px;
@@ -495,7 +495,7 @@ QPushButton:pressed {
 QCheckBox { color: #bcbcbc }
 QLabel { color: #bcbcbc }
 
-/* панель поиска */
+/* search bar */
 TypeAheadFindBar {
 	margin: 0px;
 	color: #bcbcbc;
@@ -517,12 +517,12 @@ TypeAheadFindBar>QCheckBox {
 	color: #bcbcbc;
 	background-color: #2d2d2d }
 
-TypeAheadFindBar>QToolButton, TypeAheadFindBar>QToolButton:hover  {
+TypeAheadFindBar>QToolButton, TypeAheadFindBar>QToolButton:hover {
 	color: #bcbcbc;
 	background-color: #444444;
 	border: 0px }
 
-/* редактор причин кик'и'бана */
+/* Kick and ban Reason Editor */
 MUCReasonsEditor>QWidget {
 	color: #bcbcbc;
 	background-color: #212121 }
@@ -554,7 +554,7 @@ MUCReasonsEditor>QPushButton:pressed#btnOk, MUCReasonsEditor>QPushButton:pressed
 	background-color: #444444;
 	border: 1px inset #5b5b5b }
 
-/* редактор шаблонов быстрой вставки/отправки */
+/* quick insert/send template editor */
 SendButtonTemplatesEditor>QWidget {
 	color: #bcbcbc;
 	background-color: #212121 }
@@ -588,11 +588,11 @@ SendButtonTemplatesEditor>QPushButton:pressed#btnOk, SendButtonTemplatesEditor>Q
 	background-color: #444444;
 	border: 1px inset #5b5b5b }
 
-/* меню */
+/* menu */
 QMenu {
 	margin: 1px;
 	color: #bcbcbc;
-	background-color:  #212121;
+	background-color: #212121;
 	border: 1px outset #5b5b5b;
 	border-radius: 3px;
 	padding: 1px }
@@ -625,17 +625,17 @@ QMenu::separator {
 	background-color: #5b5b5b;
 	height: 1px }
 
-/* меню смайлов - подложка */
+/* emoji menu - background */
 IconSelectPopup {
 	margin: 0px;
 	color: #bcbcbc;
 	background-color: #212121;
 	border: 1px outset #5b5b5b }
 
-/* меню смайлов - иконки */
+/* emoji menu - icons */
 IconSelectButton { background-color: #212121 }
 
-/*Last message correction*/
+/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] { background-color: rgb(0,51,0) }</options.ui.chat.css>
         <options.ui.look.contactlist.use-outlined-group-headings type="bool">false</options.ui.look.contactlist.use-outlined-group-headings>
         <options.ui.look.contactlist.use-slim-group-headings type="bool">false</options.ui.look.contactlist.use-slim-group-headings>
@@ -650,17 +650,16 @@ QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] { background-color: rgb
         <options.ui.chat.disable-paste-send type="bool">true</options.ui.chat.disable-paste-send>
         <options.ui.chat.use-expanding-line-edit type="bool">true</options.ui.chat.use-expanding-line-edit>
         <options.ui.chat.use-message-icons type="bool">true</options.ui.chat.use-message-icons>
-        <options.ui.contactlist.css type="QString">/* всё окно */
+        <options.ui.contactlist.css type="QString">
+/* the whole window */
 QMainWindow { background: #212121; background-color: #212121 }
 
-/* frame of avatar - general settings */
-/* фрейм с аватаром - общие настройки */
+/* avatar frame - general settings */
 RosterAvatarFrame * {
 	border: 1px outset #5b5b5b;
 	border-radius: 3px }
 
-/* frame of avatar - avatar */
-/* фрейм с аватаром - аватар */
+/* avatar frame - avatar */
 QLabel#lb_avatar {
 	margin-left: 1px;
 	margin-right: -1px;
@@ -668,8 +667,7 @@ QLabel#lb_avatar {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px }
 
-/* frame of avatar - nick */
-/* фрейм с аватаром - ник */
+/* avatar frame - nick */
 QLabel#lb_nick {
 	margin-bottom: 0px;
 	font-size: 12px;
@@ -680,8 +678,7 @@ QLabel#lb_nick {
 	border: 1px solid #5b5b5b
 }
 
-/* frame of avatar - buttons of PEP and status */
-/* фрейм с аватаром - кнопки PEP и статуса */
+/* avatar frame - buttons of PEP and status */
 QToolButton#tb_mood, #tb_activity {
 	background-color: #2d2d2d;
 	border: 1px outset #5b5b5b;}
@@ -707,12 +704,11 @@ QToolButton#tb_mood:pressed, #tb_activity:pressed { background-color: #212121 }
 
 QToolButton#tb_status:pressed { background-color: #212121 }
 
-/* фрейм с аватаром - кнопка статуса, стрелка */
-/*hack to hide an arrow*/
+/* avatar frame - button of status, arrow */
+/* hack to hide an arrow */
 QToolButton#tb_status::menu-indicator { image: url() }
 
-/* frame of avatar - field of status message */
-/* фрейм с аватаром - строка статусного сообщения */
+/* avatar frame - field of status message */
 QLineEdit#le_status_text {
 	margin-left: 0px;
 	margin-right: 2px;
@@ -732,7 +728,7 @@ QLineEdit#le_status_text:hover {
 	color: #bcbcbc;
 	background-color: #444444 }
 
-/* фрейм с контактами - внешний */
+/* frame with contacts - external */
 QStackedWidget {
 	margin-top: 1px;
 	margin-left: 1px;
@@ -742,13 +738,13 @@ QStackedWidget {
 	border-radius: 3px;
 	padding: 2px;}
 
-/* фрейм с контактами - внутренний */
+/* frame with contacts - internal */
 ContactListView { background-color: #232323; border: 0px }
 
-/* фрейм с контактами - отфильтрованный */
+/* frame with contacts - filtered */
 PsiFilteredContactListView {  }
 
-/* пропущенные события */
+/* missed events */
 MLabel {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -758,12 +754,12 @@ MLabel {
 	border-radius: 3px;
 	padding: 2px }
 
-/* тул-бары ( вариант QToolBar) */
+/* tool bars ( option QToolBar) */
 PsiToolBar {
 	margin: 2px;
 	border: 0px }
 
-/* кнопки на тул-барах */
+/* buttons on tool bar */
 QToolButton {
 	margin: 1px;
 	background-color: #2d2d2d;
@@ -779,7 +775,7 @@ QToolButton:checked {
 	background-color: #000000;
 	border: 1px solid #5b5b5b }
 
-/* кнопка статусов */
+/* status button */
 PopupActionButton {
 	color:#bcbcbc;
 	margin-left: 1px;
@@ -796,15 +792,15 @@ PopupActionButton::menu-indicator { image: url() }
 
 PopupActionButton:hover { background-color: #5b5b5b }
 
-PopupActionButton:hover:pressed { background-color:  #212121 }
+PopupActionButton:hover:pressed { background-color: #212121 }
 
-/* всплывающие подсказки */
+/* tooltips */
 QToolTip {
 	color: #bcbcbc;
 	background-color: #212121;
 	border: 1px solid #2d2d2d }
 
-/* скролл-бары */
+/* scroll bars */
 QScrollBar:vertical {
 	margin: 16px 2px 16px 2px;
 	background-color: #2d2d2d;
@@ -819,7 +815,7 @@ QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
 	border: 1px outset #444444;
 	border-radius: 2px }
 
-/* скролл-бар, верхняя стрелка*/
+/* scroll bar, top arrow */
 QScrollBar::sub-line:vertical {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -831,7 +827,7 @@ QScrollBar::sub-line:vertical {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, нижняя стрелка*/
+/* scroll bar, bottom arrow */
 QScrollBar::add-line:vertical {
 	margin-left: 1px;
 	margin-right: 1px;
@@ -843,7 +839,7 @@ QScrollBar::add-line:vertical {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, левая стрелка*/
+/* scroll bar, left arrow */
 QScrollBar::sub-line:horizontal {
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -855,7 +851,7 @@ QScrollBar::sub-line:horizontal {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, правая стрелка*/
+/* scroll bar, right arrow */
 QScrollBar::add-line:horizontal {
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -867,28 +863,28 @@ QScrollBar::add-line:horizontal {
 	border-radius: 3px;
 	padding: 2px }
 
-/* скролл-бар, стрелки при наведении мышкой */
+/* scrollbar, mouse hover arrows */
 QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover { background-color: #5b5b5b }
 
 QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover { background-color: #5b5b5b }
 
-/* скролл-бар - подложка */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal  {
+/* scroll bar - background */
+QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
 	background-color: #212121;
 	border: 1px solid #444444 }
 
-/* выделенный элемент ростера */
+/* selected roster element */
 QTreeView {
 	selection-color: #bcbcbc;
 	selection-background-color: #444444 }
 
-/* меню
+/* menu
 ContactListItemMenu {  } */
 
-/* индикатор меню */
+/* menu indicator */
 QToolButton::menu-indicator { image: url() }
 
-/* переименование контакта */
+/* renaming a contact */
 QLineEdit {
 	color: #bcbcbc;
 	background-color: #212121;
@@ -897,12 +893,12 @@ QLineEdit {
 	border-radius: 3px;
 	padding: 2px }
 
-/* фильтр */
+/* filter */
 QStackedWidget>QWidget>QLineEdit {
 	color: #bcbcbc;
 	background-color: #212121 }
 
-/* меню */
+/* menu */
 QMenu {
 	margin: 1px;
 	color: #bcbcbc;

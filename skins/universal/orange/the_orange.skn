@@ -472,7 +472,7 @@ QWidget#tab_general {
 	background: argb(0,0,0,0);
 	border: 0px solid #ffffff:
 }
-/*Last message correction*/
+/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
       background-color: rgb(0,51,0);
 }</options.ui.chat.css>

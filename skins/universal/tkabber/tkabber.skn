@@ -67,7 +67,7 @@ QTabBar::tab:selected {
 QDialog QTabBar::tab {
 	width: 85px;
 }
-/*Last message correction*/
+/* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
       background-color: rgb(0,51,0);
 }
