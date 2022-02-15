@@ -1,4 +1,4 @@
-<skin version="0.2.2" author="tux-den" name="Brushed Metal" path="/Applications/Psi+.app/Contents/Resources/skins/mac/brushed_metal">
+<skin version="0.3" author="tux-den" name="Brushed Metal" path="/Applications/Psi+.app/Contents/Resources/skins/mac/brushed_metal">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#0000ff</options.ui.look.colors.chat.mailto-color>
@@ -33,31 +33,116 @@
         <options.ui.contactlist.avatars.size type="int">31</options.ui.contactlist.avatars.size>
         <options.ui.contactlist.avatars.use-default-avatar type="bool">true</options.ui.contactlist.avatars.use-default-avatar>
         <options.ui.contactlist.show-client-icons type="bool">false</options.ui.contactlist.show-client-icons>
-        <options.ui.chat.css type="QString">QToolBar { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9); border: 1px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; min-width: 5ex; padding: 2px; }
+        <options.ui.chat.css type="QString">
+QToolBar {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9);
+    border: 1px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    min-width: 5ex;
+    padding: 2px;
+}
 
-QToolButton:pressed { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #a7a7a7, stop: 0.4 #a7a7a7, stop: 0.7 #a7a7a7, stop: 1.0 #a7a7a7); border: 2px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-right-radius: 4px; min-width: 5ex; padding: 2px; }
+QToolButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #a7a7a7, stop: 0.4 #a7a7a7, stop: 0.7 #a7a7a7, stop: 1.0 #a7a7a7);
+    border: 2px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 5ex;
+    padding: 2px;
+}
 
-QLineEdit { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9); border: 3px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+QLineEdit {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9);
+    border: 3px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
-QTabBar::tab:selected { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eaf1fb, stop: 0.4 #b7d4f4, stop: 0.5 #7cb6e9, stop: 1.0 #c9f9ff); border: 1px solid #3c3396; border-bottom-color: #55697b; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; padding: 5px; }
+QTabBar::tab:selected {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eaf1fb, stop: 0.4 #b7d4f4, stop: 0.5 #7cb6e9, stop: 1.0 #c9f9ff);
+    border: 1px solid #3c3396;
+    border-bottom-color: #55697b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
 
-QFrame#log { background-color: #ffffff; border: 1px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; min-width: 5ex; padding: 2px; }
+QFrame#log {
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    min-width: 5ex;
+    padding: 2px;
+}
 
-Q3ListView { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #ebebeb, stop: 0.7 #ebebeb, stop: 1.0 #ebebeb); border: 1px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; min-width: 5ex; padding: 2px; }
+Q3ListView {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ebebeb, stop: 0.4 #ebebeb, stop: 0.7 #ebebeb, stop: 1.0 #ebebeb);
+    border: 1px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    min-width: 5ex;
+    padding: 2px;
+}
 
-QLabel#lb_status { background: argb(0,0,0,0); border: -1px solid #ffffff; }
+    QLabel#lb_status {
+    background: argb(0,0,0,0);
+    border: -1px solid #ffffff;
+}
 
-QLabel#lb_client { background: argb(0,0,0,0); border: -1px solid #ffffff; }
+QLabel#lb_client {
+    background: argb(0,0,0,0);
+    border: -1px solid #ffffff;
+}
 
-QLabel { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f5f5f5, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9); border: 3px solid #c8c8c8; border-bottom-color: #ececec; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; padding: 1px; }
+QLabel {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f5f5f5, stop: 0.4 #e0e0e0, stop: 0.7 #d3d3d3, stop: 1.0 #c9c9c9);
+    border: 3px solid #c8c8c8;
+    border-bottom-color: #ececec;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px;
+}
 
-QToolButton::menu-indicator { image: none; }
+QToolButton::menu-indicator {
+    image: none;
+}
 
-QTextEdit { background-color: #f5f5f5; border: 3px solid #c8c8c8; border-bottom-color: #c8c8c8; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+QTextEdit {
+    background-color: #f5f5f5;
+    border: 3px solid #c8c8c8;
+    border-bottom-color: #c8c8c8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 /* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
-      background-color: rgb(0,51,0);
-}</options.ui.chat.css>
+    background-color: rgb(0,51,0);
+}
+        </options.ui.chat.css>
         <options.ui.look.contactlist.use-outlined-group-headings type="bool">true</options.ui.look.contactlist.use-outlined-group-headings>
         <options.ui.look.contactlist.use-slim-group-headings type="bool">true</options.ui.look.contactlist.use-slim-group-headings>
         <options.ui.look.font.chat type="QString">Lucida Grande,12,-1,5,50,0,0,0,0,0</options.ui.look.font.chat>
@@ -77,127 +162,135 @@ QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
         <options.ui.chat.disable-paste-send type="bool">false</options.ui.chat.disable-paste-send>
         <options.ui.chat.use-expanding-line-edit type="bool">true</options.ui.chat.use-expanding-line-edit>
         <options.ui.chat.use-message-icons type="bool">true</options.ui.chat.use-message-icons>
-        <options.ui.contactlist.css type="QString">QMainWindow { 
-     background: url(/Applications/Psi+.app/Contents/Resources/skins/mac/brushed_metal/brush.png) repeat-x #bebebe; }
+        <options.ui.contactlist.css type="QString">
+QMainWindow {
+    background: url(/Applications/Psi+.app/Contents/Resources/skins/mac/brushed_metal/brush.png) repeat-x #bebebe;
+}
 
 QToolButton {
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #f4f4f3, stop: 0.3 #f1f1f1, stop: 0.5 #d1d0d0, stop: 0.7 #bbbaba, stop: 1.0 #9d9c9b);
-     border: 1px solid #4a4949;
-     border-bottom-color: #4a4949;
-     border-radius: 4px; 
-     width: 25px; 
-     height: 21px; 
-     margin-bottom: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #f4f4f3, stop: 0.3 #f1f1f1, stop: 0.5 #d1d0d0, stop: 0.7 #bbbaba, stop: 1.0 #9d9c9b);
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
+    border-radius: 4px;
+    width: 25px;
+    height: 21px;
+    margin-bottom: 3px;
 }
 
 QToolButton:pressed {
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
-     border: 1px solid #4a4949;
-     border-bottom-color: #4a4949;
-     border-radius: 4px; 
-     width: 25px; 
-     height: 21px; 
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
+    border-radius: 4px;
+    width: 25px;
+    height: 21px;
 }
 
 QToolButton:checked {
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
-     border: 1px solid #4a4949;
-     border-bottom-color: #4a4949;
-     border-radius: 4px; 
-     width: 25px; 
-     height: 21px; 
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
+    border-radius: 4px;
+    width: 25px;
+    height: 21px;
 }
 
-QLineEdit { 
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
-border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  stop: 1.0 #838383);
-     border-radius: 5px; 
-     border-top-left-radius: 0px; 
-     border-bottom-left-radius: 0px;
-     padding-left: 4px;
-     padding-right: 6px;
-     color: #2b2b2b;
-     margin-top: 4px; 
-     margin-left: -1px;
-     margin-bottom: 0px; 
+QLineEdit {
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
+    border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-left: 4px;
+    padding-right: 6px;
+    color: #2b2b2b;
+    margin-top: 4px;
+    margin-left: -1px;
+    margin-bottom: 0px;
 }
 
-PsiToolBar { 
-     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #bebebe, stop: 0.3 #b6b6b6, stop: 0.5 #a8a8a8, stop: 0.7 #9f9f9f, stop: 1.0 #969696); 
-      border: 1px solid argb(0,0,0,30);  
-      border-bottom-left-radius: 5px; 
-      border-bottom-right-radius: 5px; 
-      border-top: 0px; 
+PsiToolBar {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #bebebe, stop: 0.3 #b6b6b6, stop: 0.5 #a8a8a8, stop: 0.7 #9f9f9f, stop: 1.0 #969696);
+    border: 1px solid argb(0,0,0,30);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0px;
 }
 
-PsiContactListView { 
-     margin-top: 2px; 
-     border: 1px solid #656565; 
-     border-left: 0px; 
-     border-right: 0px; 
+PsiContactListView {
+    margin-top: 2px;
+    border: 1px solid #656565;
+    border-left: 0px;
+    border-right: 0px;
 }
 
-QTreeView { 
-     background: #ffffff; 
-     alternate-background-color: #ffffff; 
+QTreeView {
+    background: #ffffff;
+    alternate-background-color: #ffffff;
 }
 
-QTreeView:active { 
-     selection-background-color: #8698aa; 
+QTreeView:active {
+    selection-background-color: #8698aa;
 }
 
-QPushButton::menu-indicator { image: none; }
-
-QToolButton::menu-indicator { image: none; }
-
-QLabel#lb_avatar { 
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #959595, stop: 0.1 #c1c1c1, stop: 0.3 #c3c3c3, stop: 0.5 #c1c1c1, stop: 0.7 #bababa, stop: 1.0 #b6b6b6); 
-     border: 1px solid #7b7b7b;
-     border-bottom-color: #7b7b7b;
-     border-radius: 4px;
+QPushButton::menu-indicator {
+    image: none;
 }
 
-QLabel#lb_nick { margin-top: 4px; font-size: 12px; }
+QToolButton::menu-indicator {
+    image: none;
+}
+
+QLabel#lb_avatar {
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #959595, stop: 0.1 #c1c1c1, stop: 0.3 #c3c3c3, stop: 0.5 #c1c1c1, stop: 0.7 #bababa, stop: 1.0 #b6b6b6); 
+    border: 1px solid #7b7b7b;
+    border-bottom-color: #7b7b7b;
+    border-radius: 4px;
+}
+
+QLabel#lb_nick {
+    margin-top: 4px;
+    font-size: 12px;
+}
 
 QToolButton#tb_status {
-     border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  stop: 1.0 #838383); 
-     border-right-color: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  stop: 1.0 #838383); 
-     border-top-right-radius: 0px; 
-     border-bottom-right-radius: 0px; 
-     padding-left: 2px;   
-     padding-right: 1px;        
-     margin-top: 5px; 
-     margin-bottom: 2px; 
-     margin-left: 5px; 
-     max-width: 22px; 
-     icon-size: 14px; 
+    border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
+    border-right-color: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 2px;
+    padding-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    max-width: 22px;
+    icon-size: 14px;
 }
 
-QToolButton#tb_activity { 
-     margin-left: 3px;
-     margin-bottom: 1px;
-     max-width: 23px;  
-     max-height: 20px; 
+QToolButton#tb_activity {
+    margin-left: 3px;
+    margin-bottom: 1px;
+    max-width: 23px;
+    max-height: 20px;
 }
 
-QToolButton#tb_mood { 
-margin-bottom: 1px;
-     max-width: 23px;  
-     max-height: 20px; 
+QToolButton#tb_mood {
+    margin-bottom: 1px;
+    max-width: 23px;
+    max-height: 20px; 
 }
 
-QStackedWidget>QWidget>QLineEdit { 
-     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
-border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  stop: 1.0 #838383);
-     border-radius: 5px; 
-     padding-left: 6px;
-     padding-right: 6px;
-     color: #2b2b2b;
-     margin-right: 10px; 
-     margin-left: 10px;
+QStackedWidget>QWidget>QLineEdit {
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
+    border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
+    border-radius: 5px; 
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #2b2b2b;
+    margin-right: 10px; 
+    margin-left: 10px;
 }
-
-</options.ui.contactlist.css>
+        </options.ui.contactlist.css>
         <options.ui.contactlist.enable-groups type="bool">false</options.ui.contactlist.enable-groups>
         <options.ui.contactlist.show.agent-contacts type="bool">false</options.ui.contactlist.show.agent-contacts>
         <options.ui.contactlist.show.offline-contacts type="bool">false</options.ui.contactlist.show.offline-contacts>
@@ -215,9 +308,11 @@ border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  
         <options.ui.contactlist.status-messages.single-line type="bool">false</options.ui.contactlist.status-messages.single-line>
         <options.ui.contactlist.tooltip.avatar type="bool">true</options.ui.contactlist.tooltip.avatar>
         <options.ui.contactlist.tooltip.client-version type="bool">true</options.ui.contactlist.tooltip.client-version>
-        <options.ui.contactlist.tooltip.css type="QString">QFrame {background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
- stop: 0 #e2e2e2, stop: 1 #a8a8a8); }
-</options.ui.contactlist.tooltip.css>
+        <options.ui.contactlist.tooltip.css type="QString">
+QFrame {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e2e2e2, stop: 1 #a8a8a8);
+}
+        </options.ui.contactlist.tooltip.css>
         <options.ui.contactlist.tooltip.geolocation type="bool">true</options.ui.contactlist.tooltip.geolocation>
         <options.ui.contactlist.tooltip.last-status type="bool">true</options.ui.contactlist.tooltip.last-status>
         <options.ui.contactlist.tooltip.pgp type="bool">true</options.ui.contactlist.tooltip.pgp>
@@ -235,18 +330,41 @@ border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e,  
         <options.ui.tabs.show-tab-close-buttons type="bool">true</options.ui.tabs.show-tab-close-buttons>
         <options.ui.tabs.use-tabs type="bool">true</options.ui.tabs.use-tabs>
         <options.ui.contactlist.show.self-contact type="bool">false</options.ui.contactlist.show.self-contact>
-        <options.ui.notifications.passive-popups.css type="QString">QFrame {background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e2e2e2, stop: 1 #a8a8a8); }
+        <options.ui.notifications.passive-popups.css type="QString">
+QFrame {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e2e2e2, stop: 1 #a8a8a8);
+}
 
-QToolButton { background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #f4f4f3, stop: 0.3 #f1f1f1, stop: 0.5 #d1d0d0, stop: 0.7 #bbbaba, stop: 1.0 #9d9c9b); border: 1px solid #4a4949; border-bottom-color: #4a4949; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-right-radius: 4px; min-width: 3ex; padding: 2px; }
+QToolButton {
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #f4f4f3, stop: 0.3 #f1f1f1, stop: 0.5 #d1d0d0, stop: 0.7 #bbbaba, stop: 1.0 #9d9c9b);
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 3ex;
+    padding: 2px;
+}
 
-QToolButton:pressed { background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece); border: 1px solid #4a4949; border-bottom-color: #4a4949; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-right-radius: 4px; min-width: 3ex; padding: 2px; }
-</options.ui.notifications.passive-popups.css>
+QToolButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 3ex;
+    padding: 2px;
+}
+        </options.ui.notifications.passive-popups.css>
         <options.ui.contactlist.show-roster-avatar-frame type="bool">true</options.ui.contactlist.show-roster-avatar-frame>
         <options.ui.tabs.show-tab-icons type="bool">true</options.ui.tabs.show-tab-icons>
         <options.ui.muc.show-client-icons type="bool">false</options.ui.muc.show-client-icons>
         <options.ui.contactlist.roster-at-left-when-all-in-one-window type="bool">false</options.ui.contactlist.roster-at-left-when-all-in-one-window>
         <options.ui.tabs.put-tabs-at-bottom type="bool">false</options.ui.tabs.put-tabs-at-bottom>
-		<options.ui.disable-send-button type="bool">false</options.ui.disable-send-button>
+        <options.ui.disable-send-button type="bool">false</options.ui.disable-send-button>
         <options.ui.muc.roster-nick-coloring type="bool">false</options.ui.muc.roster-nick-coloring>
         <options.ui.contactlist.roster-avatar-frame.avatar.size type="int">51</options.ui.contactlist.roster-avatar-frame.avatar.size>
         <options.ui.contactlist.roster-avatar-frame.avatar.margin type="int">7</options.ui.contactlist.roster-avatar-frame.avatar.margin>
