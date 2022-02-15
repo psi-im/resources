@@ -934,7 +934,7 @@ ContactListView {
 PsiFilteredContactListView {  }
 
 /* missed events */
-EventNotifier {
+QFrame#EventNotifier {
 	margin-left: 1px;
 	margin-right: 1px;
 	color: #4BD7FF;
@@ -942,6 +942,8 @@ EventNotifier {
 	border: 1px solid #3C7896;
 	border-radius: 3px;
 	padding: 0px;}
+
+EventNotifier>QLabel { color: #4BD7FF }
 
 /* tool bars ( option QToolBar) */
 PsiToolBar {
