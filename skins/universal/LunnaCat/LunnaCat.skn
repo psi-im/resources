@@ -934,14 +934,14 @@ ContactListView {
 PsiFilteredContactListView {  }
 
 /* missed events */
-MLabel {
+EventNotifier {
 	margin-left: 1px;
 	margin-right: 1px;
 	color: #4BD7FF;
 	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4BD7FF, stop: 0.28 argb(188,255,120,40), stop: 0.8 argb(188,255,120,40), stop: 1 #4BD7FF);
 	border: 1px solid #3C7896;
 	border-radius: 3px;
-	padding: 2px;}
+	padding: 0px;}
 
 /* tool bars ( option QToolBar) */
 PsiToolBar {

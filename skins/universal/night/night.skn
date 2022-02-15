@@ -840,7 +840,7 @@ QMenu::separator {
 	height: 1px;
 }
 
-MLabel {  
+EventNotifier {
 	border: 2px solid argb(0,0,100,100); 
 	border-radius: 6px;
 	color:  argb(0,0,230,250); 

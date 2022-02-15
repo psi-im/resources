@@ -745,14 +745,14 @@ ContactListView { background-color: #232323; border: 0px }
 PsiFilteredContactListView {  }
 
 /* missed events */
-MLabel {
+EventNotifier {
 	margin-left: 1px;
 	margin-right: 1px;
 	color: #bcbcbc;
 	background-color: #2d2d2d;
 	border: 1px solid #5b5b5b;
 	border-radius: 3px;
-	padding: 2px }
+	padding: 0px }
 
 /* tool bars ( option QToolBar) */
 PsiToolBar {

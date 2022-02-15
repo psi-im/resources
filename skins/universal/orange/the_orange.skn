@@ -543,7 +543,7 @@ PsiContactListView {
 	padding: 3px;
 }
 
-MLabel { 
+EventNotifier {
 	background-color: #ffffff; 
 	border: 2px solid argb(0,0,0,50); 
 	border-radius: 6px;
