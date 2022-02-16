@@ -1,4 +1,4 @@
-<skin version="1.2" author="VitoZz" name="Dark">
+<skin version="1.2" author="VitoZz" name="Dark" path="C:/Users/vital/AppData/Roaming/Psi+/skins">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#2c9dff</options.ui.look.colors.chat.mailto-color>
@@ -925,17 +925,19 @@ ContactListView {
 PsiFilteredContactListView { }
 
 /* missed events */
-MLabel {
+QFrame#EventNotifier {
     margin-left: 1px;
     margin-right: 1px;
     color: #bcbcbc;
     background-color: #2d2d2d;
     border: 1px solid #5b5b5b;
     border-radius: 3px;
-    padding: 2px;
+    padding: 0px
 }
 
-/* tool bars (option QToolBar) */
+EventNotifier>QLabel { color: #bcbcbc }
+
+/* tool bars ( option QToolBar) */
 PsiToolBar {
     margin: 2px;
     border: 0px;

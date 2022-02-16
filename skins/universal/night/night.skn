@@ -845,15 +845,17 @@ QMenu::separator {
     height: 1px;
 }
 
-MLabel {
+QFrame#EventNotifier {
     border: 2px solid argb(0,0,100,100); 
     border-radius: 6px;
-    color: argb(0,0,230,250); 
+    color:  argb(0,0,230,250); 
     font-size: 12px;
     font-weight: bold; 
     padding-left: 5px;
     margin: 3px;
 }
+
+EventNotifier>QLabel { color: argb(0,0,230,250) }
         </options.ui.contactlist.css>
         <options.ui.contactlist.enable-groups type="bool">false</options.ui.contactlist.enable-groups>
         <options.ui.contactlist.show.agent-contacts type="bool">false</options.ui.contactlist.show.agent-contacts>
