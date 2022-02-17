@@ -935,9 +935,11 @@ QFrame#EventNotifier {
     padding: 0px
 }
 
-EventNotifier>QLabel { color: #bcbcbc }
+EventNotifier>QLabel {
+    color: #bcbcbc
+}
 
-/* tool bars ( option QToolBar) */
+/* tool bars (option QToolBar) */
 PsiToolBar {
     margin: 2px;
     border: 0px;
