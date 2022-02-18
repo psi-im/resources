@@ -557,7 +557,9 @@ QFrame#EventNotifier {
     margin: 3px;
 }
 
-EventNotifier>QLabel { color: #7b3a00 }
+EventNotifier>QLabel {
+    color: #7b3a00
+}
 
 PopupActionButton {
     background: argb(20,100,160,130); 
