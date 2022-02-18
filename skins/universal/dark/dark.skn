@@ -268,7 +268,7 @@ QToolButton:checked {
 }
 
 QToolButton::menu-indicator {
-    image: url();
+    image: none
 }
 
 /* vertical splitter */
@@ -471,7 +471,7 @@ QWidget#tab_general QComboBox::drop-down {
 }
 
 QWidget#tab_general QComboBox::down-arrow {
-    image: url();
+    image: none
 }
 
 QWidget#tab_general QComboBox QAbstractItemView {
@@ -881,7 +881,7 @@ QToolButton#tb_status:pressed {
 /* avatar frame - button of status, arrow */
 /* hack to hide an arrow */
 QToolButton#tb_status::menu-indicator {
-    image: url();
+    image: none
 }
 
 /* avatar frame - field of status message */
@@ -983,7 +983,7 @@ PopupActionButton {
 }
 
 PopupActionButton::menu-indicator {
-    image: url();
+    image: none
 }
 
 PopupActionButton:hover {
@@ -1097,7 +1097,7 @@ ContactListItemMenu { } */
 
 /* menu indicator */
 QToolButton::menu-indicator {
-    image: url();
+    image: none
 }
 
 /* renaming a contact */

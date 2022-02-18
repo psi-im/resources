@@ -228,7 +228,7 @@ QToolButton:checked {
     background-color: #000000;
     border: 1px solid #53575b }
 
-QToolButton::menu-indicator {image: url();}
+QToolButton::menu-indicator { image: none }
 
 /* вертикальный сплиттер */
 QSplitter::handle:vertical {
@@ -389,7 +389,7 @@ QWidget#tab_general QComboBox::drop-down {
     border-left: 1px solid #53575b;
     background-color: #18191d }
 
-QWidget#tab_general QComboBox::down-arrow { image: url() }
+QWidget#tab_general QComboBox::down-arrow { image: none }
 
 QWidget#tab_general QComboBox QAbstractItemView {
     color: #c0c0c0;
@@ -724,7 +724,7 @@ QToolButton#tb_status:pressed { background-color: #1a4e4c }
 
 /* фрейм с аватаром - кнопка статуса, стрелка */
 /*hack to hide an arrow*/
-QToolButton#tb_status::menu-indicator { image: url() }
+QToolButton#tb_status::menu-indicator { image: none }
 
 /* frame of avatar - field of status message */
 /* фрейм с аватаром - строка статусного сообщения */
@@ -809,7 +809,7 @@ PopupActionButton {
     border-radius: 3px;
     padding: -5px }
 
-PopupActionButton::menu-indicator { image: url() }
+PopupActionButton::menu-indicator { image: none }
 
 PopupActionButton:hover { background-color: #284245 }
 
@@ -910,7 +910,7 @@ QTreeView {
 ContactListItemMenu {  } */
 
 /* индикатор меню */
-QToolButton::menu-indicator { image: url() }
+QToolButton::menu-indicator { image: none }
 
 /* переименование контакта */
 QLineEdit {
