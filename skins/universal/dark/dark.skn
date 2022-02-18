@@ -1,4 +1,4 @@
-<skin version="1.3" author="VitoZz" name="Dark" path="C:/Users/vital/AppData/Roaming/Psi+/skins">
+<skin version="1.3" author="VitoZz" name="Dark">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#2c9dff</options.ui.look.colors.chat.mailto-color>
@@ -268,7 +268,7 @@ QToolButton:checked {
 }
 
 QToolButton::menu-indicator {
-    image: url();
+    image: none;
 }
 
 /* vertical splitter */
@@ -288,7 +288,8 @@ QSplitter::handle:vertical:pressed {
 
 /* horizontal splitter */
 QSplitter::handle:horizontal {
-    background-color:#212121; border: 1px;
+    background-color:#212121;
+    border: 1px;
 }
 
 QSplitter::handle:horizontal:hover {
@@ -311,7 +312,8 @@ PsiTabBar {
 
 /* tab bar - main font color */
 TabDlg {
-    color: #bcbcbc; background-color: #212121;
+    color: #bcbcbc;
+    background-color: #212121;
 }
 
 /* Inactive tab */
@@ -471,7 +473,7 @@ QWidget#tab_general QComboBox::drop-down {
 }
 
 QWidget#tab_general QComboBox::down-arrow {
-    image: url();
+    image: none;
 }
 
 QWidget#tab_general QComboBox QAbstractItemView {
@@ -776,7 +778,10 @@ QMenu::separator {
 }
 
 /* emoji menu - background */
-IconSelect { background-color: #212121 }
+IconSelect {
+    background-color: #212121;
+}
+
 IconSelectPopup>QScrollArea {
     margin: 0px;
     color: #bcbcbc;
@@ -881,7 +886,7 @@ QToolButton#tb_status:pressed {
 /* avatar frame - button of status, arrow */
 /* hack to hide an arrow */
 QToolButton#tb_status::menu-indicator {
-    image: url();
+    image: none;
 }
 
 /* avatar frame - field of status message */
@@ -937,7 +942,7 @@ QFrame#EventNotifier {
 }
 
 EventNotifier>QLabel {
-    color: #bcbcbc
+    color: #bcbcbc;
 }
 
 /* tool bars (option QToolBar) */
@@ -983,7 +988,7 @@ PopupActionButton {
 }
 
 PopupActionButton::menu-indicator {
-    image: url();
+    image: none;
 }
 
 PopupActionButton:hover {
@@ -1097,7 +1102,7 @@ ContactListItemMenu { } */
 
 /* menu indicator */
 QToolButton::menu-indicator {
-    image: url();
+    image: none;
 }
 
 /* renaming a contact */
@@ -1221,11 +1226,14 @@ QFrame {
         <options.ui.contactlist.show.self-contact type="bool">false</options.ui.contactlist.show.self-contact>
         <options.ui.notifications.passive-popups.css type="QString">
 QFrame {
-    color: #bcbcbc; background-color: #212121;
+    color: #bcbcbc;
+    background-color: #212121;
 }
 
 QToolButton {
-    background-color: #5b5b5b; border: 1px solid #212121; border-radius: 2px;
+    background-color: #5b5b5b;
+    border: 1px solid #212121;
+    border-radius: 2px;
 }
 
 QToolButton:hover {

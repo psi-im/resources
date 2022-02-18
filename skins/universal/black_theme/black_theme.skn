@@ -53,12 +53,14 @@ QScrollBar::handle:vertical {
 }
 
 QScrollBar::add-line:vertical {
-    border: 0px; height: 0px;
+    border: 0px;
+    height: 0px;
     subcontrol-position: bottom;
 }
 
 QScrollBar::sub-line:vertical {
-    border: 0px; height: 0px;
+    border: 0px;
+    height: 0px;
     subcontrol-position: top;
 }
 
@@ -75,12 +77,14 @@ QScrollBar::handle:horizontall {
 }
 
 QScrollBar::add-line:horizontall {
-    border: 0px; height: 0px;
+    border: 0px;
+    height: 0px;
     subcontrol-position: bottom;
 }
 
 QScrollBar::sub-line:horizontall {
-    border: 0px; height: 0px;
+    border: 0px;
+    height: 0px;
     subcontrol-position: top;
 }
 
@@ -157,7 +161,8 @@ QPushButton:hover:pressed {
     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b3c5e1, stop: 0.3 #95bbdf, stop: 0.4 #82b1dd, stop: 0.5 #69a2d7, stop: 0.7 #87b6e3, stop: 1.0 #b3e2f7);
     border: 1px solid #1b008c;
     border-bottom-color: #5b5b5b;
-    width: 80px; height: 2px;
+    width: 80px;
+    height: 2px;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
     border-bottom-right-radius: 11px;
@@ -335,7 +340,8 @@ QToolButton:pressed {
 
 QToolButton:checked {
     background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #a09f9e, stop: 0.3 #acabaa, stop: 0.5 #cfcece, stop: 0.7 #cfcece, stop: 1.0 #cfcece);
-    border: 1px solid #4a4949; border-bottom-color: #4a4949;
+    border: 1px solid #4a4949;
+    border-bottom-color: #4a4949;
     border-radius: 4px;
     width: 30px;
     height: 22px;
