@@ -640,6 +640,7 @@ QMenu::separator {
     height: 1px }
 
 /* меню смайлов - подложка */
+IconSelect { background-color: #282e33 }
 IconSelectPopup>QScrollArea {
     margin: 0px;
     color: #c0c0c0;

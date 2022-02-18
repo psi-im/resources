@@ -890,6 +890,11 @@ QMenu::separator {
 }
 
 /* emoji menu - background */
+IconSelect {
+    background: url(C:/Program Files/Psi+/skins/universal/LunnaCat/Tooltip.png) right top;
+    background-color: argb(188,255,120,0);
+}
+
 IconSelectPopup>QScrollArea {
     margin: 0px;
     color: #4BD7FF;

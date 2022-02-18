@@ -776,6 +776,7 @@ QMenu::separator {
 }
 
 /* emoji menu - background */
+IconSelect { background-color: #212121 }
 IconSelectPopup>QScrollArea {
     margin: 0px;
     color: #bcbcbc;
