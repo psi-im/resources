@@ -196,7 +196,7 @@ QToolButton:checked {
 }
 
 QLineEdit {
-    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3);
     border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
     border-radius: 5px;
     border-top-left-radius: 0px;
@@ -242,7 +242,7 @@ QToolButton::menu-indicator {
 }
 
 QLabel#lb_avatar {
-    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #959595, stop: 0.1 #c1c1c1, stop: 0.3 #c3c3c3, stop: 0.5 #c1c1c1, stop: 0.7 #bababa, stop: 1.0 #b6b6b6); 
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #959595, stop: 0.1 #c1c1c1, stop: 0.3 #c3c3c3, stop: 0.5 #c1c1c1, stop: 0.7 #bababa, stop: 1.0 #b6b6b6);
     border: 1px solid #7b7b7b;
     border-bottom-color: #7b7b7b;
     border-radius: 4px;
@@ -277,17 +277,17 @@ QToolButton#tb_activity {
 QToolButton#tb_mood {
     margin-bottom: 1px;
     max-width: 23px;
-    max-height: 20px; 
+    max-height: 20px;
 }
 
 QStackedWidget>QWidget>QLineEdit {
-    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3); 
+    background: qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #e6e6e6, stop: 0.1 #ffffff, stop: 0.5 #dededd, stop: 0.8 #fbfbfb, stop: 0.9 #ffffff, stop: 1.0 #e3e3e3);
     border: 1px solid qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #5e5e5e, stop: 1.0 #838383);
-    border-radius: 5px; 
+    border-radius: 5px;
     padding-left: 6px;
     padding-right: 6px;
     color: #2b2b2b;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-left: 10px;
 }
         </options.ui.contactlist.css>

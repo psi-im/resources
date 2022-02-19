@@ -1105,7 +1105,7 @@ QFrame#EventNotifier {
 }
 
 EventNotifier>QLabel {
-    color: #4BD7FF
+    color: #4BD7FF;
 }
 
 /* tool bars (option QToolBar) */
