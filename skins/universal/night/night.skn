@@ -165,7 +165,7 @@ QToolButton {
 
 QToolButton:hover {
     background: argb(0,0,100,150);
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 QToolButton:pressed {
@@ -217,7 +217,7 @@ QPushButton#pb_send {
 
 QPushButton:hover#pb_send {
     background: argb(0,0,200,100);
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 QPushButton:pressed#pb_send {
@@ -249,7 +249,8 @@ QTabBar::tab:hover {
 QTabBar::tab:selected {
     background: argb(0,0,250,200);
     border: 2px solid argb(0,0,100,250);
-    border-radius: 10px; height: 25px;
+    border-radius: 10px;
+    height: 25px;
     border-bottom-left-radius: 0px;
     border-bottom: 2px solid argb(0,0,100,250);
     border-bottom-right-radius: 0px;
@@ -368,7 +369,8 @@ QLabel#lb_ident {
 QScrollBar:vertical {
     border: 1px solid grey;
     background: #525252;
-    width: 15px; margin: 23px 0px 23px 0px;
+    width: 15px;
+    margin: 23px 0px 23px 0px;
     border-radius: 0px;
     border-bottom: 0px;
     border-top: 0px;
@@ -382,8 +384,10 @@ QScrollBar::handle:vertical {
 }
 
 QScrollBar::add-line:vertical {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/bottom.png) center no-repeat;
-    height: 24px; width: 13px;
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/bottom.png) center no-repeat;
+    height: 24px;
+    width: 13px;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
     margin-bottom: 0px;
@@ -395,7 +399,8 @@ QScrollBar::add-line:vertical {
 }
 
 QScrollBar::sub-line:vertical {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/top.png) center no-repeat;
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/top.png) center no-repeat;
     height: 23px;
     width: 13px;
     subcontrol-position: top;
@@ -409,14 +414,16 @@ QScrollBar::sub-line:vertical {
 }
 
 QScrollBar::add-line:vertical:pressed {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/bottom_press.png) center no-repeat;
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/bottom_press.png) center no-repeat;
     height: 24px;
     width: 13px;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
-    margin-bottom: 0px; border-top-left-radius: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    border-bottom-left-radius: 6px;    
+    border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 0px;
 }
@@ -606,7 +613,8 @@ QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
         <options.ui.chat.disable-paste-send type="bool">false</options.ui.chat.disable-paste-send>
         <options.ui.chat.use-expanding-line-edit type="bool">false</options.ui.chat.use-expanding-line-edit>
         <options.ui.chat.use-message-icons type="bool">true</options.ui.chat.use-message-icons>
-        <options.ui.contactlist.css type="QString">QMainWindow {
+        <options.ui.contactlist.css type="QString">
+QMainWindow {
     background: url(C:/Program Files/Psi+/skins/universal/night/green.png) repeat-x qlineargradient(x1: 0, y1: 0, x1: 0, y2: 1, stop: 0 #11140f, stop: 1.0 #000000);
     margin-top: -15px;
 }
@@ -663,14 +671,14 @@ PopupActionButton {
 PopupActionButton:hover {
     background: argb(0,0,100,150);
     border-radius: 4px;
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 
 PopupActionButton:pressed {
     background: argb(0,0,250,130);
     border: 2px solid #cccccc;
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 QToolButton {
@@ -685,7 +693,7 @@ QToolButton {
 
 QToolButton:hover {
     background: argb(0,0,100,150);
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 QToolButton:pressed {
@@ -775,55 +783,62 @@ QScrollBar::handle:vertical {
 }
 
 QScrollBar::add-line:vertical {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/bottom.png) center no-repeat;
-    height: 24px; width: 11px;
-    subcontrol-position: bottom; 
-    subcontrol-origin: margin;
-    margin-bottom: 3px; 
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 6px; 
-    border-bottom-right-radius: 6px; 
-    border-top: 0px;
-}
-
-QScrollBar::sub-line:vertical {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/top.png) center no-repeat;
-    height: 23px; width: 11px; 
-    subcontrol-position: top; 
-    subcontrol-origin: margin; 
-    margin-top: 3px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px; 
-    border-bottom: 0px;
-}
-
-QScrollBar::add-line:vertical:pressed {
-    border: 1px solid grey; background: url(C:/Program Files/Psi+/skins/universal/night/bottom_press.png) center no-repeat;
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/bottom.png) center no-repeat;
     height: 24px;
-    width: 11px; 
+    width: 11px;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
     margin-bottom: 3px;
     border-top-left-radius: 0px;
-    border-top-right-radius: 0px; 
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/top.png) center no-repeat;
+    height: 23px;
+    width: 11px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+    margin-top: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px;
+}
+
+QScrollBar::add-line:vertical:pressed {
+    border: 1px solid grey;
+    background: url(C:/Program Files/Psi+/skins/universal/night/bottom_press.png) center no-repeat;
+    height: 24px;
+    width: 11px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+    margin-bottom: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 0px;
 }
 
 QScrollBar::sub-line:vertical:pressed {
-    border: 1px solid grey; 
+    border: 1px solid grey;
     background: url(C:/Program Files/Psi+/skins/universal/night/top_press.png) center no-repeat;
-    height: 23px; width: 11px; 
-subcontrol-position: top; 
+    height: 23px;
+    width: 11px;
+    subcontrol-position: top;
     subcontrol-origin: margin;
-    margin-top: 3px; 
-    border-top-left-radius: 6px; 
-    border-top-right-radius: 6px; border-bottom-left-radius: 0px; 
-    border-bottom-right-radius: 0px; 
+    margin-top: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     border-bottom: 0px;
 }
 
@@ -836,8 +851,8 @@ QMenu {
 }
 
 QMenu:selected {
-    background: argb(0,0,250,200); 
-    color: argb(0,0,0,200); 
+    background: argb(0,0,250,200);
+    color: argb(0,0,0,200);
 }
 
 QMenu::separator {
@@ -846,17 +861,17 @@ QMenu::separator {
 }
 
 QFrame#EventNotifier {
-    border: 2px solid argb(0,0,100,100); 
+    border: 2px solid argb(0,0,100,100);
     border-radius: 6px;
-    color: argb(0,0,230,250); 
+    color: argb(0,0,230,250);
     font-size: 12px;
-    font-weight: bold; 
+    font-weight: bold;
     padding-left: 5px;
     margin: 3px;
 }
 
 EventNotifier>QLabel {
-    color: argb(0,0,230,250)
+    color: argb(0,0,230,250);
 }
         </options.ui.contactlist.css>
         <options.ui.contactlist.enable-groups type="bool">false</options.ui.contactlist.enable-groups>
