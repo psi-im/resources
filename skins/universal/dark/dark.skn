@@ -1,4 +1,4 @@
-<skin version="1.3" author="VitoZz" name="Dark">
+<skin name="Dark" version="1.4" path="/home/vitaly/.local/share/psi+/skins/universal/dark" author="VitoZz">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#2c9dff</options.ui.look.colors.chat.mailto-color>
@@ -484,88 +484,48 @@ QWidget#tab_general QComboBox QAbstractItemView {
 }
 
 /* scroll bars */
+QScrollBar {
+    background-color: #212121;
+    border: 1px inset #444444;
+    border-radius: 7px;
+}
+
 QScrollBar:vertical {
-    margin: 16px 2px 16px 2px;
-    background-color: #2d2d2d;
-    width: 18px;
+    width: 16px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 QScrollBar:horizontal {
-    margin: 1px 16px 1px 16px;
-    background-color: #2d2d2d;
-    height: 18px;
-}
-
-QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    border: 1px outset #444444;
-    border-radius: 2px;
-}
-
-/* scroll bar, top arrow */
-QScrollBar::sub-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #2d2d2d;
-    border: 1px outset #444444;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scroll bar, bottom arrow */
-QScrollBar::add-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #2d2d2d;
-    border: 1px outset #444444;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scroll bar, left arrow */
-QScrollBar::sub-line:horizontal {
+    height: 16px;
     margin-top: 1px;
     margin-bottom: 1px;
-    width: 9px;
+}
+
+QScrollBar::handle {
     background-color: #2d2d2d;
-    border: 1px solid #444444;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
+    border: 1px outset #444444;
+    border-radius: 6px;
 }
 
-/* scroll bar, right arrow */
-QScrollBar::add-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color:#2d2d2d;
-    border: 1px solid #444444;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scrollbar, mouse hover arrows */
-QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover {
+QScrollBar::handle:hover {
     background-color: #5b5b5b;
+    border: 1px outset #5b5b5b;
 }
 
-QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover {
-    background-color: #5b5b5b;
+/* scroll bar, vertical arrows */
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;
+}
+
+/* scroll bar, horizontal arrows */
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0px;
 }
 
 /* scroll bar - background */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
-    background-color: #212121;
-    border: 1px solid #444444;
+QScrollBar::sub-page, QScrollBar::add-page {
+    background: none;
 }
 
 Q3ListView * {
@@ -1007,88 +967,48 @@ QToolTip {
 }
 
 /* scroll bars */
+QScrollBar {
+    background-color: #212121;
+    border: 1px inset #444444;
+    border-radius: 7px;
+}
+
 QScrollBar:vertical {
-    margin: 16px 2px 16px 2px;
-    background-color: #2d2d2d;
-    width: 18px;
+    width: 16px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 QScrollBar:horizontal {
-    margin: 1px 16px 1px 16px;
-    background-color: #2d2d2d;
-    height: 18px;
-}
-
-QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    border: 1px outset #444444;
-    border-radius: 2px;
-}
-
-/* scroll bar, top arrow */
-QScrollBar::sub-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #2d2d2d;
-    border: 1px outset #444444;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scroll bar, bottom arrow */
-QScrollBar::add-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #2d2d2d;
-    border: 1px outset #444444;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scroll bar, left arrow */
-QScrollBar::sub-line:horizontal {
+    height: 16px;
     margin-top: 1px;
     margin-bottom: 1px;
-    width: 9px;
+}
+
+QScrollBar::handle {
     background-color: #2d2d2d;
-    border: 1px solid #444444;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
+    border: 1px outset #444444;
+    border-radius: 6px;
 }
 
-/* scroll bar, right arrow */
-QScrollBar::add-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color: #2d2d2d;
-    border: 1px solid #444444;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-    border-radius: 3px;
-    padding: 2px;
-}
-
-/* scrollbar, mouse hover arrows */
-QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover {
+QScrollBar::handle:hover {
     background-color: #5b5b5b;
+    border: 1px outset #5b5b5b;
 }
 
-QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover {
-    background-color: #5b5b5b;
+/* scroll bar, vertical arrows */
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;
+}
+
+/* scroll bar, horizontal arrows */
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0px;
 }
 
 /* scroll bar - background */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
-    background-color: #212121;
-    border: 1px solid #444444;
+QScrollBar::sub-page, QScrollBar::add-page {
+    background: none;
 }
 
 /* selected roster element */

@@ -1,4 +1,4 @@
-<skin version="1.0" author="VitoZz" name="Breath_Dark">
+<skin version="1.1" author="VitoZz" name="Breath_Dark" path="/home/vitaly/.local/share/psi+/skins/universal/breath">
     <options>
         <options.ui.look.colors.chat.link-color type="QColor">#0000ff</options.ui.look.colors.chat.link-color>
         <options.ui.look.colors.chat.mailto-color type="QColor">#2c9dff</options.ui.look.colors.chat.mailto-color>
@@ -490,98 +490,54 @@ QWidget#tab_general QComboBox QAbstractItemView {
 }
 
 /* scroll bars */
-QScrollBar:vertical {
-    margin: 16px 2px 16px 2px;
-    background-color: #1a4e4c;
+QScrollBar {
+    background-color: #18191d;
+    border: 1px solid #18191d;
     border-radius: 5px;
-    width: 16px;
+}
+
+QScrollBar:vertical {
+    width: 17px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 QScrollBar:horizontal {
-    margin: 1px 16px 1px 16px;
+    height: 17px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QScrollBar:vertical:hover, QScrollBar:horizontal:hover {
+    background-color: #29292d;
+    border: 1px solid #3d3e42;
+}
+
+QScrollBar::handle {
     background-color: #1a4e4c;
-    border-radius: 5px;
-    height: 16px;
+    border: 1px solid #076f65;
+    border-radius: 4px;
 }
 
-QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    border: 1px outset #18191d;
-    border-radius: 5px;
-}
-
-QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+QScrollBar::handle:hover {
     background-color: #14635c;
-    border: 1px outset #009886;
-    border-radius: 5px;
+    border: 1px solid #009886;
+    border-radius: 4px;
 }
 
-/* scroll bar, top arrow */
-QScrollBar::sub-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #18191d;
-    border: 1px outset #18191d;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
+/* scroll bar, vertical arrows */
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;
 }
 
-/* scroll bar, bottom arrow */
-QScrollBar::add-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #18191d;
-    border: 1px outset #18191d;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scroll bar, left arrow */
-QScrollBar::sub-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color: #18191d;
-    border: 1px solid #18191d;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scroll bar, right arrow */
-QScrollBar::add-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color: #18191d;
-    border: 1px solid #18191d;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scrollbar, mouse hover arrows */
-QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover {
-    background-color: #14635c;
-    border: 1px solid #14635c;
-}
-
-QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover {
-    background-color: #14635c;
-    border: 1px solid #14635c;
+/* scroll bar, horizontal arrows */
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0px;
 }
 
 /* scroll bar - background */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
-    background-color: #18191d;
-    border: 1px solid #414245;
+QScrollBar::sub-page, QScrollBar::add-page {
+    background: none;
 }
 
 Q3ListView * {
@@ -812,7 +768,7 @@ IconSelectButton {
 
 /* Last message correction */
 QWidget#bottomFrame>QWidget>QTextEdit[correction="true"] {
-    background-color: rgb(0,51,0);
+    background-color: #1a4e4c;
 }
 
         </options.ui.chat.css>
@@ -1024,98 +980,54 @@ QToolTip {
 }
 
 /* scroll bars */
-QScrollBar:vertical {
-    margin: 16px 2px 16px 2px;
-    background-color: #1a4e4c;
+QScrollBar {
+    background-color: #18191d;
+    border: 1px solid #18191d;
     border-radius: 5px;
-    width: 16px;
+}
+
+QScrollBar:vertical {
+    width: 17px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 QScrollBar:horizontal {
-    margin: 1px 16px 1px 16px;
+    height: 17px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QScrollBar:vertical:hover, QScrollBar:horizontal:hover {
+    background-color: #29292d;
+    border: 1px solid #3d3e42;
+}
+
+QScrollBar::handle {
     background-color: #1a4e4c;
-    border-radius: 5px;
-    height: 16px;
+    border: 1px solid #076f65;
+    border-radius: 4px;
 }
 
-QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    border: 1px outset #18191d;
-    border-radius: 5px;
-}
-
-QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+QScrollBar::handle:hover {
     background-color: #14635c;
-    border: 1px outset #009886;
-    border-radius: 5px;
+    border: 1px solid #009886;
+    border-radius: 4px;
 }
 
-/* scroll bar, top arrow */
-QScrollBar::sub-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #18191d;
-    border: 1px outset #18191d;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
+/* scroll bar, vertical arrows */
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;
 }
 
-/* scroll bar, bottom arrow */
-QScrollBar::add-line:vertical {
-    margin-left: 1px;
-    margin-right: 1px;
-    height: 9px;
-    background-color: #18191d;
-    border: 1px outset #18191d;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scroll bar, left arrow */
-QScrollBar::sub-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color: #18191d;
-    border: 1px solid #18191d;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scroll bar, right arrow */
-QScrollBar::add-line:horizontal {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 9px;
-    background-color: #18191d;
-    border: 1px solid #18191d;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-/* scrollbar, mouse hover arrows */
-QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:horizontal:hover {
-    background-color: #14635c;
-    border: 1px solid #14635c;
-}
-
-QScrollBar::add-line:vertical:hover, QScrollBar::add-line:horizontal:hover {
-    background-color: #14635c;
-    border: 1px solid #14635c;
+/* scroll bar, horizontal arrows */
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0px;
 }
 
 /* scroll bar - background */
-QScrollBar::sub-page:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:horizontal, QScrollBar::add-page:horizontal {
-    background-color: #18191d;
-    border: 1px solid #414245;
+QScrollBar::sub-page, QScrollBar::add-page {
+    background: none;
 }
 
 /* selected roster element */
