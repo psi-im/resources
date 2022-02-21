@@ -246,12 +246,12 @@ QToolBar {
 
 /* central bar buttons and more */
 QToolButton {
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #2d2d2d;
     border: 1px outset #5b5b5b;
     border-radius: 3px;
-    padding: 1px;
+    padding: 0px;
 }
 
 QToolButton:hover {
